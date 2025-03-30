@@ -1,0 +1,6 @@
+--num_keys 1000000
+--num_queries 1000000
+--data_filepath /var/data/yupeng/btrdb_key_test
+--query_filepath /var/data/yupeng/btrdb_query_test
+--layout_filepath /var/data/yupeng/btrdb_layout_test
+--print_layout=true

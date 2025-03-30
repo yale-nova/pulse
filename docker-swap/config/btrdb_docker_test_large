@@ -1,0 +1,7 @@
+--num_keys 1000000000
+--num_queries 1000000
+--data_filepath /var/data/yupeng/_LBNL_a6_bus1_keys_sorted
+--query_filepath /var/data/yupeng/btrdb_query_test
+--plotter_filepath /home/yupeng/pulse/docker-swap/btrdb/
+--agg_length 1000000000
+--agg_stats=true

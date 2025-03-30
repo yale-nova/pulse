@@ -1,0 +1,8 @@
+--num_keys 1000000
+--num_queries 1000000
+--db_filepath /home/yupeng/db
+--data_filepath /var/data/ycsbc_key_test
+--query_filepath /var/data/ycsbe_query_test
+--wiredtiger_open_config create,cache_size=2G,in_memory=true
+--wiredtiger_table_name dsrc:mytable
+--wiredtiger_data_format key_format=Q,value_format=S

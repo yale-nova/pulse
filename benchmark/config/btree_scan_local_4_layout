@@ -1,0 +1,6 @@
+--num_keys 2000000000
+--num_queries 1000000
+--data_filepath /var/data/yupeng/ycsbe_key_4
+--query_filepath /var/data/yupeng/ycsbe_query_4
+--layout_filepath /var/data/yupeng/bplustree_layout_4
+--print_layout=true

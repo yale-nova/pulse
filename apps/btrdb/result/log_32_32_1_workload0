@@ -1,0 +1,211 @@
+[33mdo.sh: Launching process 1 on NUMA node 0[m
+2024-05-02 05:39:07 INFO main(...) Progress0
+2024-05-02 05:39:08 INFO main(...) Caches set up
+Invalid log level: 0
+EAL: invalid parameters for --log-level
+EAL: Detected CPU lcores: 48
+EAL: Detected NUMA nodes: 1
+EAL: Auto-detected process type: PRIMARY
+EAL: Detected static linkage of DPDK
+EAL: Multi-process socket /var/run/dpdk/rte/mp_socket
+EAL: Selected IOVA mode 'PA'
+EAL: No available 1048576 kB hugepages reported
+EAL: VFIO support initialized
+EAL: Probe PCI driver: mlx5_pci (15b3:a2d6) device: 0000:00:08.0 (socket 0)
+EAL: Probe PCI driver: mlx5_pci (15b3:a2d6) device: 0000:00:09.0 (socket 0)
+TELEMETRY: No legacy callbacks, legacy socket not created
+49:155348 WARNG: Running as primary DPDK process. eRPC DPDK daemon is not running.
+49:907992 WARNG: DpdkTransport created for Rpc ID 0, queue 0, datapath UDP port 10000
+49:909105 WARNG: DpdkTransport created for Rpc ID 10, queue 9, datapath UDP port 10009
+49:910520 WARNG: DpdkTransport created for Rpc ID 3, queue 4, datapath UDP port 10004
+49:912574 WARNG: DpdkTransport created for Rpc ID 17, queue 21, datapath UDP port 10021
+49:914957 WARNG: DpdkTransport created for Rpc ID 5, queue 5, datapath UDP port 10005
+49:915334 WARNG: DpdkTransport created for Rpc ID 11, queue 11, datapath UDP port 10011
+49:916471 WARNG: DpdkTransport created for Rpc ID 12, queue 12, datapath UDP port 10012
+49:918003 WARNG: DpdkTransport created for Rpc ID 1, queue 1, datapath UDP port 10001
+49:918932 WARNG: DpdkTransport created for Rpc ID 24, queue 19, datapath UDP port 10019
+49:920074 WARNG: DpdkTransport created for Rpc ID 30, queue 20, datapath UDP port 10020
+49:920842 WARNG: DpdkTransport created for Rpc ID 22, queue 14, datapath UDP port 10014
+49:921801 WARNG: DpdkTransport created for Rpc ID 7, queue 7, datapath UDP port 10007
+49:922801 WARNG: DpdkTransport created for Rpc ID 4, queue 3, datapath UDP port 10003
+49:924648 WARNG: DpdkTransport created for Rpc ID 14, queue 17, datapath UDP port 10017
+49:925722 WARNG: DpdkTransport created for Rpc ID 31, queue 16, datapath UDP port 10016
+49:925773 WARNG: DpdkTransport created for Rpc ID 16, queue 26, datapath UDP port 10026
+49:927376 WARNG: DpdkTransport created for Rpc ID 9, queue 8, datapath UDP port 10008
+49:927797 WARNG: DpdkTransport created for Rpc ID 29, queue 29, datapath UDP port 10029
+49:929764 WARNG: DpdkTransport created for Rpc ID 20, queue 15, datapath UDP port 10015
+49:929781 WARNG: DpdkTransport created for Rpc ID 8, queue 10, datapath UDP port 10010
+49:930570 WARNG: DpdkTransport created for Rpc ID 2, queue 2, datapath UDP port 10002
+49:932857 WARNG: DpdkTransport created for Rpc ID 27, queue 28, datapath UDP port 10028
+49:933695 WARNG: DpdkTransport created for Rpc ID 13, queue 31, datapath UDP port 10031
+49:933867 WARNG: DpdkTransport created for Rpc ID 25, queue 23, datapath UDP port 10023
+49:933935 WARNG: DpdkTransport created for Rpc ID 6, queue 6, datapath UDP port 10006
+49:935807 WARNG: DpdkTransport created for Rpc ID 26, queue 13, datapath UDP port 10013
+49:936062 WARNG: DpdkTransport created for Rpc ID 21, queue 18, datapath UDP port 10018
+49:939928 WARNG: DpdkTransport created for Rpc ID 19, queue 24, datapath UDP port 10024
+49:941597 WARNG: DpdkTransport created for Rpc ID 23, queue 25, datapath UDP port 10025
+49:942431 WARNG: DpdkTransport created for Rpc ID 15, queue 30, datapath UDP port 10030
+49:946672 WARNG: DpdkTransport created for Rpc ID 28, queue 27, datapath UDP port 10027
+49:947589 WARNG: DpdkTransport created for Rpc ID 18, queue 22, datapath UDP port 10022
+2024-05-02 05:39:10 INFO client_thread_func(...) Session connected for process: 1 thread: 0
+2024-05-02 05:39:10 INFO client_thread_func(...) Finished initializing buffers
+2024-05-02 05:39:10 INFO client_thread_func(...) Start event loop
+2024-05-02 05:39:10 INFO client_thread_func(...) Session connected for process: 1 thread: 10
+2024-05-02 05:39:10 INFO client_thread_func(...) Finished initializing buffers
+2024-05-02 05:39:10 INFO client_thread_func(...) Start event loop
+2024-05-02 05:39:10 INFO client_thread_func(...) Session connected for process: 1 thread: 17
+2024-05-02 05:39:10 INFO client_thread_func(...) Finished initializing buffers
+2024-05-02 05:39:10 INFO client_thread_func(...) Start event loop
+2024-05-02 05:39:10 INFO client_thread_func(...) Session connected for process: 1 thread: 7
+2024-05-02 05:39:10 INFO client_thread_func(...) Finished initializing buffers
+2024-05-02 05:39:10 INFO client_thread_func(...) Start event loop
+2024-05-02 05:39:10 INFO client_thread_func(...) Session connected for process: 1 thread: 16
+2024-05-02 05:39:10 INFO client_thread_func(...) Finished initializing buffers
+2024-05-02 05:39:10 INFO client_thread_func(...) Start event loop
+2024-05-02 05:39:10 INFO client_thread_func(...) Session connected for process: 1 thread: 11
+2024-05-02 05:39:10 INFO client_thread_func(...) Finished initializing buffers
+2024-05-02 05:39:10 INFO client_thread_func(...) Start event loop
+2024-05-02 05:39:10 INFO client_thread_func(...) Session connected for process: 1 thread: 27
+2024-05-02 05:39:10 INFO client_thread_func(...) Finished initializing buffers
+2024-05-02 05:39:10 INFO client_thread_func(...) Start event loop
+2024-05-02 05:39:10 INFO client_thread_func(...) Session connected for process: 1 thread: 25
+2024-05-02 05:39:10 INFO client_thread_func(...) Finished initializing buffers
+2024-05-02 05:39:10 INFO client_thread_func(...) Start event loop
+2024-05-02 05:39:10 INFO client_thread_func(...) Session connected for process: 1 thread: 24
+2024-05-02 05:39:10 INFO client_thread_func(...) Finished initializing buffers
+2024-05-02 05:39:10 INFO client_thread_func(...) Start event loop
+2024-05-02 05:39:10 INFO client_thread_func(...) Session connected for process: 1 thread: 13
+2024-05-02 05:39:10 INFO client_thread_func(...) Finished initializing buffers
+2024-05-02 05:39:10 INFO client_thread_func(...) Start event loop
+2024-05-02 05:39:10 INFO client_thread_func(...) Session connected for process: 1 thread: 23
+2024-05-02 05:39:10 INFO client_thread_func(...) Finished initializing buffers
+2024-05-02 05:39:10 INFO client_thread_func(...) Start event loop
+2024-05-02 05:39:10 INFO client_thread_func(...) Session connected for process: 1 thread: 22
+2024-05-02 05:39:10 INFO client_thread_func(...) Finished initializing buffers
+2024-05-02 05:39:10 INFO client_thread_func(...) Start event loop
+2024-05-02 05:39:10 INFO client_thread_func(...) Session connected for process: 1 thread: 5
+2024-05-02 05:39:10 INFO client_thread_func(...) Finished initializing buffers
+2024-05-02 05:39:10 INFO client_thread_func(...) Start event loop
+2024-05-02 05:39:10 INFO client_thread_func(...) Session connected for process: 1 thread: 15
+2024-05-02 05:39:10 INFO client_thread_func(...) Finished initializing buffers
+2024-05-02 05:39:10 INFO client_thread_func(...) Start event loop
+2024-05-02 05:39:10 INFO client_thread_func(...) Session connected for process: 1 thread: 3
+2024-05-02 05:39:10 INFO client_thread_func(...) Finished initializing buffers
+2024-05-02 05:39:10 INFO client_thread_func(...) Start event loop
+2024-05-02 05:39:10 INFO client_thread_func(...) Session connected for process: 1 thread: 14
+2024-05-02 05:39:10 INFO client_thread_func(...) Finished initializing buffers
+2024-05-02 05:39:10 INFO client_thread_func(...) Start event loop
+2024-05-02 05:39:10 INFO client_thread_func(...) Session connected for process: 1 thread: 9
+2024-05-02 05:39:10 INFO client_thread_func(...) Finished initializing buffers
+2024-05-02 05:39:10 INFO client_thread_func(...) Start event loop
+2024-05-02 05:39:10 INFO client_thread_func(...) Session connected for process: 1 thread: 30
+2024-05-02 05:39:10 INFO client_thread_func(...) Finished initializing buffers
+2024-05-02 05:39:10 INFO client_thread_func(...) Start event loop
+2024-05-02 05:39:10 INFO client_thread_func(...) Session connected for process: 1 thread: 19
+2024-05-02 05:39:10 INFO client_thread_func(...) Finished initializing buffers
+2024-05-02 05:39:10 INFO client_thread_func(...) Start event loop
+2024-05-02 05:39:10 INFO client_thread_func(...) Session connected for process: 1 thread: 2
+2024-05-02 05:39:10 INFO client_thread_func(...) Finished initializing buffers
+2024-05-02 05:39:10 INFO client_thread_func(...) Start event loop
+2024-05-02 05:39:10 INFO client_thread_func(...) Session connected for process: 1 thread: 28
+2024-05-02 05:39:10 INFO client_thread_func(...) Finished initializing buffers
+2024-05-02 05:39:10 INFO client_thread_func(...) Start event loop
+2024-05-02 05:39:10 INFO client_thread_func(...) Session connected for process: 1 thread: 8
+2024-05-02 05:39:10 INFO client_thread_func(...) Finished initializing buffers
+2024-05-02 05:39:10 INFO client_thread_func(...) Start event loop
+2024-05-02 05:39:10 INFO client_thread_func(...) Session connected for process: 1 thread: 21
+2024-05-02 05:39:10 INFO client_thread_func(...) Finished initializing buffers
+2024-05-02 05:39:10 INFO client_thread_func(...) Start event loop
+2024-05-02 05:39:10 INFO client_thread_func(...) Session connected for process: 1 thread: 20
+2024-05-02 05:39:10 INFO client_thread_func(...) Finished initializing buffers
+2024-05-02 05:39:10 INFO client_thread_func(...) Start event loop
+2024-05-02 05:39:10 INFO client_thread_func(...) Session connected for process: 1 thread: 29
+2024-05-02 05:39:10 INFO client_thread_func(...) Finished initializing buffers
+2024-05-02 05:39:10 INFO client_thread_func(...) Session connected for process: 1 thread: 4
+2024-05-02 05:39:10 INFO client_thread_func(...) Start event loop
+2024-05-02 05:39:10 INFO client_thread_func(...) Finished initializing buffers
+2024-05-02 05:39:10 INFO client_thread_func(...) Start event loop
+2024-05-02 05:39:10 INFO client_thread_func(...) Session connected for process: 1 thread: 26
+2024-05-02 05:39:10 INFO client_thread_func(...) Session connected for process: 1 thread: 12
+2024-05-02 05:39:10 INFO client_thread_func(...) Session connected for process: 1 thread: 1
+2024-05-02 05:39:10 INFO client_thread_func(...) Session connected for process: 1 thread: 31
+2024-05-02 05:39:10 INFO client_thread_func(...) Finished initializing buffers
+2024-05-02 05:39:10 INFO client_thread_func(...) Finished initializing buffers
+2024-05-02 05:39:10 INFO client_thread_func(...) Finished initializing buffers
+2024-05-02 05:39:10 INFO client_thread_func(...) Finished initializing buffers
+2024-05-02 05:39:10 INFO client_thread_func(...) Start event loop
+2024-05-02 05:39:10 INFO client_thread_func(...) Start event loop
+2024-05-02 05:39:10 INFO client_thread_func(...) Start event loop
+2024-05-02 05:39:10 INFO client_thread_func(...) Session connected for process: 1 thread: 6
+2024-05-02 05:39:10 INFO client_thread_func(...) Start event loop
+2024-05-02 05:39:10 INFO client_thread_func(...) Finished initializing buffers
+2024-05-02 05:39:10 INFO client_thread_func(...) Start event loop
+2024-05-02 05:39:10 INFO client_thread_func(...) Session connected for process: 1 thread: 18
+2024-05-02 05:39:10 INFO client_thread_func(...) Finished initializing buffers
+2024-05-02 05:39:10 INFO client_thread_func(...) Start event loop
+2024-05-02 05:39:11 INFO client_thread_func(...) Thread [0] Network Latency(ns): Average: 8.4 99-Latency: 251.2 99.9-Latency: 396.8] Total Latency(ns): Average: 0 99-Latency: 0 99.9-Latency: 0.1] Cache Latency(us): Average: 396.8 99-Latency: 396.8 99.9-Latency: 396.8 number of cache hits: 0 number of responses: 29790 cache hit rate: 0 Throughput(Mops): 0.0297908
+2024-05-02 05:39:11 INFO client_thread_func(...) Thread [10] Network Latency(ns): Average: 8.4 99-Latency: 244.8 99.9-Latency: 396.8] Total Latency(ns): Average: 0 99-Latency: 0 99.9-Latency: 0.1] Cache Latency(us): Average: 396.8 99-Latency: 396.8 99.9-Latency: 396.8 number of cache hits: 0 number of responses: 31842 cache hit rate: 0 Throughput(Mops): 0.0318428
+2024-05-02 05:39:11 INFO client_thread_func(...) Thread [17] Network Latency(ns): Average: 8.4 99-Latency: 240 99.9-Latency: 396.8] Total Latency(ns): Average: 0 99-Latency: 0 99.9-Latency: 0] Cache Latency(us): Average: 396.8 99-Latency: 396.8 99.9-Latency: 396.8 number of cache hits: 0 number of responses: 33346 cache hit rate: 0 Throughput(Mops): 0.0333469
+2024-05-02 05:39:11 INFO client_thread_func(...) Thread [7] Network Latency(ns): Average: 8.3 99-Latency: 232 99.9-Latency: 396.8] Total Latency(ns): Average: 0 99-Latency: 0 99.9-Latency: 0.1] Cache Latency(us): Average: 396.8 99-Latency: 396.8 99.9-Latency: 396.8 number of cache hits: 0 number of responses: 33552 cache hit rate: 0 Throughput(Mops): 0.0335529
+2024-05-02 05:39:11 INFO client_thread_func(...) Thread [16] Network Latency(ns): Average: 8.3 99-Latency: 249.6 99.9-Latency: 396.8] Total Latency(ns): Average: 0 99-Latency: 0 99.9-Latency: 0.1] Cache Latency(us): Average: 396.8 99-Latency: 396.8 99.9-Latency: 396.8 number of cache hits: 0 number of responses: 33795 cache hit rate: 0 Throughput(Mops): 0.0337959
+2024-05-02 05:39:11 INFO client_thread_func(...) Thread [11] Network Latency(ns): Average: 8.3 99-Latency: 235.2 99.9-Latency: 396.8] Total Latency(ns): Average: 0 99-Latency: 0 99.9-Latency: 0.1] Cache Latency(us): Average: 396.8 99-Latency: 396.8 99.9-Latency: 396.8 number of cache hits: 0 number of responses: 33931 cache hit rate: 0 Throughput(Mops): 0.0339319
+2024-05-02 05:39:11 INFO client_thread_func(...) Thread [27] Network Latency(ns): Average: 8.3 99-Latency: 233.6 99.9-Latency: 396.8] Total Latency(ns): Average: 0 99-Latency: 0 99.9-Latency: 0.1] Cache Latency(us): Average: 396.8 99-Latency: 396.8 99.9-Latency: 396.8 number of cache hits: 0 number of responses: 33931 cache hit rate: 0 Throughput(Mops): 0.0339319
+2024-05-02 05:39:11 INFO client_thread_func(...) Thread [25] Network Latency(ns): Average: 8.4 99-Latency: 238.4 99.9-Latency: 396.8] Total Latency(ns): Average: 0 99-Latency: 0 99.9-Latency: 0.1] Cache Latency(us): Average: 396.8 99-Latency: 396.8 99.9-Latency: 396.8 number of cache hits: 0 number of responses: 34238 cache hit rate: 0 Throughput(Mops): 0.0342389
+2024-05-02 05:39:11 INFO client_thread_func(...) Thread [24] Network Latency(ns): Average: 8.5 99-Latency: 225.6 99.9-Latency: 396.8] Total Latency(ns): Average: 0 99-Latency: 0 99.9-Latency: 0.1] Cache Latency(us): Average: 396.8 99-Latency: 396.8 99.9-Latency: 396.8 number of cache hits: 0 number of responses: 34231 cache hit rate: 0 Throughput(Mops): 0.0342319
+2024-05-02 05:39:11 INFO client_thread_func(...) Thread [13] Network Latency(ns): Average: 8.2 99-Latency: 238.4 99.9-Latency: 396.8] Total Latency(ns): Average: 0 99-Latency: 0 99.9-Latency: 0.1] Cache Latency(us): Average: 396.8 99-Latency: 396.8 99.9-Latency: 396.8 number of cache hits: 0 number of responses: 34273 cache hit rate: 0 Throughput(Mops): 0.0342739
+2024-05-02 05:39:11 INFO client_thread_func(...) Thread [23] Network Latency(ns): Average: 8.5 99-Latency: 228.8 99.9-Latency: 396.8] Total Latency(ns): Average: 0 99-Latency: 0 99.9-Latency: 0] Cache Latency(us): Average: 396.8 99-Latency: 396.8 99.9-Latency: 396.8 number of cache hits: 0 number of responses: 34400 cache hit rate: 0 Throughput(Mops): 0.0344009
+2024-05-02 05:39:11 INFO client_thread_func(...) Thread [22] Network Latency(ns): Average: 8.3 99-Latency: 236.8 99.9-Latency: 396.8] Total Latency(ns): Average: 0 99-Latency: 0.2 99.9-Latency: 0.2] Cache Latency(us): Average: 396.8 99-Latency: 396.8 99.9-Latency: 396.8 number of cache hits: 0 number of responses: 34420 cache hit rate: 0 Throughput(Mops): 0.0344209
+2024-05-02 05:39:11 INFO client_thread_func(...) Thread [5] Network Latency(ns): Average: 8.3 99-Latency: 233.6 99.9-Latency: 396.8] Total Latency(ns): Average: 0 99-Latency: 0 99.9-Latency: 0.2] Cache Latency(us): Average: 396.8 99-Latency: 396.8 99.9-Latency: 396.8 number of cache hits: 0 number of responses: 34498 cache hit rate: 0 Throughput(Mops): 0.0344989
+2024-05-02 05:39:11 INFO client_thread_func(...) Thread [15] Network Latency(ns): Average: 8.3 99-Latency: 232 99.9-Latency: 396.8] Total Latency(ns): Average: 0 99-Latency: 0 99.9-Latency: 0] Cache Latency(us): Average: 396.8 99-Latency: 396.8 99.9-Latency: 396.8 number of cache hits: 0 number of responses: 34556 cache hit rate: 0 Throughput(Mops): 0.0345569
+2024-05-02 05:39:11 INFO client_thread_func(...) Thread [3] Network Latency(ns): Average: 8.2 99-Latency: 235.2 99.9-Latency: 396.8] Total Latency(ns): Average: 0 99-Latency: 0 99.9-Latency: 0.1] Cache Latency(us): Average: 396.8 99-Latency: 396.8 99.9-Latency: 396.8 number of cache hits: 0 number of responses: 34549 cache hit rate: 0 Throughput(Mops): 0.0345499
+2024-05-02 05:39:11 INFO client_thread_func(...) Thread [14] Network Latency(ns): Average: 8.3 99-Latency: 236.8 99.9-Latency: 396.8] Total Latency(ns): Average: 0 99-Latency: 0 99.9-Latency: 0] Cache Latency(us): Average: 396.8 99-Latency: 396.8 99.9-Latency: 396.8 number of cache hits: 0 number of responses: 34589 cache hit rate: 0 Throughput(Mops): 0.03459
+2024-05-02 05:39:11 INFO client_thread_func(...) Thread [9] Network Latency(ns): Average: 8.3 99-Latency: 224 99.9-Latency: 396.8] Total Latency(ns): Average: 0 99-Latency: 0 99.9-Latency: 0.1] Cache Latency(us): Average: 396.8 99-Latency: 396.8 99.9-Latency: 396.8 number of cache hits: 0 number of responses: 34718 cache hit rate: 0 Throughput(Mops): 0.034719
+2024-05-02 05:39:11 INFO client_thread_func(...) Thread [30] Network Latency(ns): Average: 8.4 99-Latency: 232 99.9-Latency: 396.8] Total Latency(ns): Average: 0 99-Latency: 0 99.9-Latency: 0.1] Cache Latency(us): Average: 396.8 99-Latency: 396.8 99.9-Latency: 396.8 number of cache hits: 0 number of responses: 34751 cache hit rate: 0 Throughput(Mops): 0.0347519
+2024-05-02 05:39:11 INFO client_thread_func(...) Thread [19] Network Latency(ns): Average: 8.3 99-Latency: 233.6 99.9-Latency: 396.8] Total Latency(ns): Average: 0 99-Latency: 0 99.9-Latency: 0] Cache Latency(us): Average: 396.8 99-Latency: 396.8 99.9-Latency: 396.8 number of cache hits: 0 number of responses: 34849 cache hit rate: 0 Throughput(Mops): 0.0348499
+2024-05-02 05:39:11 INFO client_thread_func(...) Thread [2] Network Latency(ns): Average: 8.3 99-Latency: 225.6 99.9-Latency: 396.8] Total Latency(ns): Average: 0 99-Latency: 0 99.9-Latency: 0.1] Cache Latency(us): Average: 396.8 99-Latency: 396.8 99.9-Latency: 396.8 number of cache hits: 0 number of responses: 34849 cache hit rate: 0 Throughput(Mops): 0.03485
+2024-05-02 05:39:11 INFO client_thread_func(...) Thread [28] Network Latency(ns): Average: 8.4 99-Latency: 236.8 99.9-Latency: 396.8] Total Latency(ns): Average: 0 99-Latency: 0 99.9-Latency: 0] Cache Latency(us): Average: 396.8 99-Latency: 396.8 99.9-Latency: 396.8 number of cache hits: 0 number of responses: 34875 cache hit rate: 0 Throughput(Mops): 0.034876
+2024-05-02 05:39:11 INFO client_thread_func(...) Thread [8] Network Latency(ns): Average: 8.4 99-Latency: 228.8 99.9-Latency: 396.8] Total Latency(ns): Average: 0 99-Latency: 0 99.9-Latency: 0.1] Cache Latency(us): Average: 396.8 99-Latency: 396.8 99.9-Latency: 396.8 number of cache hits: 0 number of responses: 34904 cache hit rate: 0 Throughput(Mops): 0.034905
+2024-05-02 05:39:11 INFO client_thread_func(...) Thread [21] Network Latency(ns): Average: 8.5 99-Latency: 233.6 99.9-Latency: 396.8] Total Latency(ns): Average: 0 99-Latency: 0 99.9-Latency: 0] Cache Latency(us): Average: 396.8 99-Latency: 396.8 99.9-Latency: 396.8 number of cache hits: 0 number of responses: 34912 cache hit rate: 0 Throughput(Mops): 0.034913
+2024-05-02 05:39:11 INFO client_thread_func(...) Thread [20] Network Latency(ns): Average: 8.2 99-Latency: 230.4 99.9-Latency: 396.8] Total Latency(ns): Average: 0 99-Latency: 0 99.9-Latency: 0.1] Cache Latency(us): Average: 396.8 99-Latency: 396.8 99.9-Latency: 396.8 number of cache hits: 0 number of responses: 34925 cache hit rate: 0 Throughput(Mops): 0.0349259
+2024-05-02 05:39:11 INFO client_thread_func(...) Thread [29] Network Latency(ns): Average: 8.4 99-Latency: 232 99.9-Latency: 396.8] Total Latency(ns): Average: 0 99-Latency: 0 99.9-Latency: 0.1] Cache Latency(us): Average: 396.8 99-Latency: 396.8 99.9-Latency: 396.8 number of cache hits: 0 number of responses: 34949 cache hit rate: 0 Throughput(Mops): 0.03495
+2024-05-02 05:39:11 INFO client_thread_func(...) Thread [4] Network Latency(ns): Average: 8.2 99-Latency: 232 99.9-Latency: 396.8] Total Latency(ns): Average: 0 99-Latency: 0 99.9-Latency: 0.1] Cache Latency(us): Average: 396.8 99-Latency: 396.8 99.9-Latency: 396.8 number of cache hits: 0 number of responses: 34948 cache hit rate: 0 Throughput(Mops): 0.0349489
+2024-05-02 05:39:11 INFO client_thread_func(...) Thread [31] Network Latency(ns): Average: 8.3 99-Latency: 235.2 99.9-Latency: 396.8] Total Latency(ns): Average: 0 99-Latency: 0 99.9-Latency: 0.1] Cache Latency(us): Average: 396.8 99-Latency: 396.8 99.9-Latency: 396.8 number of cache hits: 0 number of responses: 34967 cache hit rate: 0 Throughput(Mops): 0.034968
+2024-05-02 05:39:11 INFO client_thread_func(...) Thread [26] Network Latency(ns): Average: 8.3 99-Latency: 232 99.9-Latency: 396.8] Total Latency(ns): Average: 0 99-Latency: 0 99.9-Latency: 0] Cache Latency(us): Average: 396.8 99-Latency: 396.8 99.9-Latency: 396.8 number of cache hits: 0 number of responses: 34979 cache hit rate: 0 Throughput(Mops): 0.0349799
+2024-05-02 05:39:11 INFO client_thread_func(...) Thread [12] Network Latency(ns): Average: 8.4 99-Latency: 228.8 99.9-Latency: 396.8] Total Latency(ns): Average: 0 99-Latency: 0 99.9-Latency: 0] Cache Latency(us): Average: 396.8 99-Latency: 396.8 99.9-Latency: 396.8 number of cache hits: 0 number of responses: 34974 cache hit rate: 0 Throughput(Mops): 0.034975
+2024-05-02 05:39:11 INFO client_thread_func(...) Thread [1] Network Latency(ns): Average: 8.2 99-Latency: 233.6 99.9-Latency: 396.8] Total Latency(ns): Average: 0 99-Latency: 0 99.9-Latency: 0.1] Cache Latency(us): Average: 396.8 99-Latency: 396.8 99.9-Latency: 396.8 number of cache hits: 0 number of responses: 34982 cache hit rate: 0 Throughput(Mops): 0.034983
+2024-05-02 05:39:11 INFO client_thread_func(...) Thread [6] Network Latency(ns): Average: 8.4 99-Latency: 230.4 99.9-Latency: 396.8] Total Latency(ns): Average: 0 99-Latency: 0 99.9-Latency: 0.1] Cache Latency(us): Average: 396.8 99-Latency: 396.8 99.9-Latency: 396.8 number of cache hits: 0 number of responses: 34985 cache hit rate: 0 Throughput(Mops): 0.034986
+2024-05-02 05:39:11 INFO client_thread_func(...) Thread [18] Network Latency(ns): Average: 8.2 99-Latency: 228.8 99.9-Latency: 396.8] Total Latency(ns): Average: 0 99-Latency: 0 99.9-Latency: 0] Cache Latency(us): Average: 396.8 99-Latency: 396.8 99.9-Latency: 396.8 number of cache hits: 0 number of responses: 35910 cache hit rate: 0 Throughput(Mops): 0.035911
+2024-05-02 05:39:12 INFO client_thread_func(...) Exiting event loop because of experiment finished
+2024-05-02 05:39:12 INFO client_thread_func(...) Exiting event loop because of experiment finished
+2024-05-02 05:39:12 INFO client_thread_func(...) Exiting event loop because of experiment finished
+2024-05-02 05:39:12 INFO client_thread_func(...) Exiting event loop because of experiment finished
+2024-05-02 05:39:12 INFO client_thread_func(...) Exiting event loop because of experiment finished
+2024-05-02 05:39:12 INFO client_thread_func(...) Exiting event loop because of experiment finished
+2024-05-02 05:39:12 INFO client_thread_func(...) Exiting event loop because of experiment finished
+2024-05-02 05:39:12 INFO client_thread_func(...) Exiting event loop because of experiment finished
+2024-05-02 05:39:12 INFO client_thread_func(...) Exiting event loop because of experiment finished
+2024-05-02 05:39:12 INFO client_thread_func(...) Exiting event loop because of experiment finished
+2024-05-02 05:39:12 INFO client_thread_func(...) Exiting event loop because of experiment finished
+2024-05-02 05:39:12 INFO client_thread_func(...) Exiting event loop because of experiment finished
+2024-05-02 05:39:12 INFO client_thread_func(...) Exiting event loop because of experiment finished
+2024-05-02 05:39:12 INFO client_thread_func(...) Exiting event loop because of experiment finished
+2024-05-02 05:39:12 INFO client_thread_func(...) Exiting event loop because of experiment finished
+2024-05-02 05:39:12 INFO client_thread_func(...) Exiting event loop because of experiment finished
+2024-05-02 05:39:12 INFO client_thread_func(...) Exiting event loop because of experiment finished
+2024-05-02 05:39:12 INFO client_thread_func(...) Exiting event loop because of experiment finished
+2024-05-02 05:39:12 INFO client_thread_func(...) Exiting event loop because of experiment finished
+2024-05-02 05:39:12 INFO client_thread_func(...) Exiting event loop because of experiment finished
+2024-05-02 05:39:12 INFO client_thread_func(...) Exiting event loop because of experiment finished
+2024-05-02 05:39:12 INFO client_thread_func(...) Exiting event loop because of experiment finished
+2024-05-02 05:39:12 INFO client_thread_func(...) Exiting event loop because of experiment finished
+2024-05-02 05:39:12 INFO client_thread_func(...) Exiting event loop because of experiment finished
+2024-05-02 05:39:12 INFO client_thread_func(...) Exiting event loop because of experiment finished
+2024-05-02 05:39:12 INFO client_thread_func(...) Exiting event loop because of experiment finished
+2024-05-02 05:39:12 INFO client_thread_func(...) Exiting event loop because of experiment finished
+2024-05-02 05:39:12 INFO client_thread_func(...) Exiting event loop because of experiment finished
+2024-05-02 05:39:12 INFO client_thread_func(...) Exiting event loop because of experiment finished
+2024-05-02 05:39:12 INFO client_thread_func(...) Exiting event loop because of experiment finished
+2024-05-02 05:39:12 INFO client_thread_func(...) Exiting event loop because of experiment finished
+2024-05-02 05:39:12 INFO client_thread_func(...) Exiting event loop because of experiment finished
+free(): double free detected in tcache 2
+./scripts/do.sh: line 79: 463306 Aborted                 sudo -E env LD_LIBRARY_PATH=$LD_LIBRARY_PATH numactl --cpunodebind=$numa_node --membind=$numa_node ./build/apps/$autorun_app $(cat $config) --process_id $epid --numa_node $numa_node

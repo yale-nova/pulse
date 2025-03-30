@@ -1,0 +1,281 @@
+[33mdo.sh: Launching process 1 on NUMA node 0[m
+2024-04-27 05:47:16 INFO main(...) Load all queries 1000000
+Invalid log level: 0
+EAL: invalid parameters for --log-level
+EAL: Detected CPU lcores: 24
+EAL: Detected NUMA nodes: 1
+EAL: Auto-detected process type: PRIMARY
+EAL: Detected static linkage of DPDK
+EAL: Multi-process socket /var/run/dpdk/rte/mp_socket
+EAL: Selected IOVA mode 'PA'
+EAL: No available 1048576 kB hugepages reported
+EAL: VFIO support initialized
+EAL: Probe PCI driver: mlx5_pci (15b3:a2d6) device: 0000:00:08.0 (socket 0)
+EAL: Probe PCI driver: mlx5_pci (15b3:a2d6) device: 0000:00:09.0 (socket 0)
+TELEMETRY: No legacy callbacks, legacy socket not created
+36:874924 WARNG: Running as primary DPDK process. eRPC DPDK daemon is not running.
+37:372693 WARNG: DpdkTransport created for Rpc ID 0, queue 0, datapath UDP port 10000
+37:373870 WARNG: DpdkTransport created for Rpc ID 3, queue 3, datapath UDP port 10003
+37:379421 WARNG: DpdkTransport created for Rpc ID 7, queue 7, datapath UDP port 10007
+37:380242 WARNG: DpdkTransport created for Rpc ID 6, queue 6, datapath UDP port 10006
+37:381098 WARNG: DpdkTransport created for Rpc ID 2, queue 1, datapath UDP port 10001
+37:381871 WARNG: DpdkTransport created for Rpc ID 4, queue 4, datapath UDP port 10004
+37:397551 WARNG: DpdkTransport created for Rpc ID 5, queue 5, datapath UDP port 10005
+37:398280 WARNG: DpdkTransport created for Rpc ID 1, queue 2, datapath UDP port 10002
+2024-04-27 05:47:18 INFO client_thread_func(...) Session connected for process: 1 thread: 3
+2024-04-27 05:47:18 INFO client_thread_func(...) Finished initializing buffers
+2024-04-27 05:47:18 INFO client_thread_func(...) Start event loop
+2024-04-27 05:47:18 INFO client_thread_func(...) Session connected for process: 1 thread: 0
+2024-04-27 05:47:18 INFO client_thread_func(...) Finished initializing buffers
+2024-04-27 05:47:18 INFO client_thread_func(...) Start event loop
+2024-04-27 05:47:18 INFO client_thread_func(...) Session connected for process: 1 thread: 7
+2024-04-27 05:47:18 INFO client_thread_func(...) Finished initializing buffers
+2024-04-27 05:47:18 INFO client_thread_func(...) Start event loop
+2024-04-27 05:47:18 INFO client_thread_func(...) Session connected for process: 1 thread: 6
+2024-04-27 05:47:18 INFO client_thread_func(...) Finished initializing buffers
+2024-04-27 05:47:18 INFO client_thread_func(...) Start event loop
+2024-04-27 05:47:18 INFO client_thread_func(...) Session connected for process: 1 thread: 2
+2024-04-27 05:47:18 INFO client_thread_func(...) Finished initializing buffers
+2024-04-27 05:47:18 INFO client_thread_func(...) Start event loop
+2024-04-27 05:47:18 INFO client_thread_func(...) Session connected for process: 1 thread: 4
+2024-04-27 05:47:18 INFO client_thread_func(...) Finished initializing buffers
+2024-04-27 05:47:18 INFO client_thread_func(...) Start event loop
+2024-04-27 05:47:18 INFO client_thread_func(...) Session connected for process: 1 thread: 5
+2024-04-27 05:47:18 INFO client_thread_func(...) Finished initializing buffers
+2024-04-27 05:47:18 INFO client_thread_func(...) Start event loop
+2024-04-27 05:47:18 INFO client_thread_func(...) Session connected for process: 1 thread: 1
+2024-04-27 05:47:18 INFO client_thread_func(...) Finished initializing buffers
+2024-04-27 05:47:18 INFO client_thread_func(...) Start event loop
+2024-04-27 05:47:19 INFO client_thread_func(...) Thread [3] Network Latency(ns): Average: 27.4 99-Latency: 42.4 99.9-Latency: 396.8] Total Latency(ns): Average: 5.4 99-Latency: 10.9 99.9-Latency: 15.8 Throughput(Mops): 0.0263893
+2024-04-27 05:47:19 INFO client_thread_func(...) Thread [0] Network Latency(ns): Average: 27 99-Latency: 41.6 99.9-Latency: 396.8] Total Latency(ns): Average: 5.4 99-Latency: 11.4 99.9-Latency: 17.6 Throughput(Mops): 0.0263255
+2024-04-27 05:47:19 INFO client_thread_func(...) Thread [7] Network Latency(ns): Average: 27.4 99-Latency: 41.6 99.9-Latency: 396.8] Total Latency(ns): Average: 5.3 99-Latency: 10.8 99.9-Latency: 15.8 Throughput(Mops): 0.0265565
+2024-04-27 05:47:19 INFO client_thread_func(...) Thread [6] Network Latency(ns): Average: 27.6 99-Latency: 42 99.9-Latency: 396.8] Total Latency(ns): Average: 5.3 99-Latency: 10.5 99.9-Latency: 15.8 Throughput(Mops): 0.0265895
+2024-04-27 05:47:19 INFO client_thread_func(...) Thread [2] Network Latency(ns): Average: 27.4 99-Latency: 42 99.9-Latency: 396.8] Total Latency(ns): Average: 5.4 99-Latency: 11.4 99.9-Latency: 16 Throughput(Mops): 0.0266244
+2024-04-27 05:47:19 INFO client_thread_func(...) Thread [4] Network Latency(ns): Average: 34 99-Latency: 50.4 99.9-Latency: 396.8] Total Latency(ns): Average: 8.9 99-Latency: 17.6 99.9-Latency: 24.6 Throughput(Mops): 0.0203742
+2024-04-27 05:47:19 INFO client_thread_func(...) Thread [5] Network Latency(ns): Average: 27.2 99-Latency: 41.6 99.9-Latency: 396.8] Total Latency(ns): Average: 5.4 99-Latency: 11.1 99.9-Latency: 15.8 Throughput(Mops): 0.0271124
+2024-04-27 05:47:19 INFO client_thread_func(...) Thread [1] Network Latency(ns): Average: 27.2 99-Latency: 41.6 99.9-Latency: 396.8] Total Latency(ns): Average: 5.4 99-Latency: 10.4 99.9-Latency: 15.4 Throughput(Mops): 0.0271595
+2024-04-27 05:47:20 INFO client_thread_func(...) Thread [3] Network Latency(ns): Average: 26.4 99-Latency: 38.2 99.9-Latency: 48.8] Total Latency(ns): Average: 5.4 99-Latency: 9 99.9-Latency: 16 Throughput(Mops): 0.0298905
+2024-04-27 05:47:20 INFO client_thread_func(...) Thread [0] Network Latency(ns): Average: 26.2 99-Latency: 38.8 99.9-Latency: 54.8] Total Latency(ns): Average: 5.4 99-Latency: 9.4 99.9-Latency: 18.8 Throughput(Mops): 0.0294835
+2024-04-27 05:47:20 INFO client_thread_func(...) Thread [7] Network Latency(ns): Average: 26.4 99-Latency: 38.4 99.9-Latency: 47.6] Total Latency(ns): Average: 5.4 99-Latency: 8.9 99.9-Latency: 16.2 Throughput(Mops): 0.0298772
+2024-04-27 05:47:20 INFO client_thread_func(...) Thread [6] Network Latency(ns): Average: 26.4 99-Latency: 38.4 99.9-Latency: 49.6] Total Latency(ns): Average: 5.3 99-Latency: 9 99.9-Latency: 16.2 Throughput(Mops): 0.0298926
+2024-04-27 05:47:20 INFO client_thread_func(...) Thread [2] Network Latency(ns): Average: 26.4 99-Latency: 38.4 99.9-Latency: 47.6] Total Latency(ns): Average: 5.4 99-Latency: 9.1 99.9-Latency: 15.8 Throughput(Mops): 0.0299006
+2024-04-27 05:47:20 INFO client_thread_func(...) Thread [4] Network Latency(ns): Average: 33.4 99-Latency: 47.2 99.9-Latency: 56.8] Total Latency(ns): Average: 8.9 99-Latency: 16 99.9-Latency: 28.4 Throughput(Mops): 0.0223344
+2024-04-27 05:47:20 INFO client_thread_func(...) Thread [5] Network Latency(ns): Average: 26.2 99-Latency: 38.4 99.9-Latency: 48.8] Total Latency(ns): Average: 5.4 99-Latency: 9.3 99.9-Latency: 15.2 Throughput(Mops): 0.0298965
+2024-04-27 05:47:20 INFO client_thread_func(...) Thread [1] Network Latency(ns): Average: 26.2 99-Latency: 38.4 99.9-Latency: 50] Total Latency(ns): Average: 5.4 99-Latency: 8.9 99.9-Latency: 15.8 Throughput(Mops): 0.0298906
+2024-04-27 05:47:21 INFO client_thread_func(...) Thread [3] Network Latency(ns): Average: 26.6 99-Latency: 38.8 99.9-Latency: 50.8] Total Latency(ns): Average: 5.4 99-Latency: 9.7 99.9-Latency: 15.2 Throughput(Mops): 0.0295365
+2024-04-27 05:47:21 INFO client_thread_func(...) Thread [0] Network Latency(ns): Average: 26.6 99-Latency: 39.6 99.9-Latency: 53.2] Total Latency(ns): Average: 5.4 99-Latency: 10.1 99.9-Latency: 16.6 Throughput(Mops): 0.0289615
+2024-04-27 05:47:21 INFO client_thread_func(...) Thread [7] Network Latency(ns): Average: 26.4 99-Latency: 38.8 99.9-Latency: 49.2] Total Latency(ns): Average: 5.4 99-Latency: 9.3 99.9-Latency: 14.8 Throughput(Mops): 0.0295125
+2024-04-27 05:47:21 INFO client_thread_func(...) Thread [6] Network Latency(ns): Average: 26.6 99-Latency: 38.4 99.9-Latency: 52] Total Latency(ns): Average: 5.3 99-Latency: 9.3 99.9-Latency: 15 Throughput(Mops): 0.0295406
+2024-04-27 05:47:21 INFO client_thread_func(...) Thread [2] Network Latency(ns): Average: 26.4 99-Latency: 38.8 99.9-Latency: 48.4] Total Latency(ns): Average: 5.4 99-Latency: 9.7 99.9-Latency: 15.2 Throughput(Mops): 0.0295286
+2024-04-27 05:47:21 INFO client_thread_func(...) Thread [4] Network Latency(ns): Average: 33.8 99-Latency: 48 99.9-Latency: 74.8] Total Latency(ns): Average: 8.9 99-Latency: 16.4 99.9-Latency: 25.6 Throughput(Mops): 0.0218594
+2024-04-27 05:47:21 INFO client_thread_func(...) Thread [5] Network Latency(ns): Average: 26.4 99-Latency: 38.8 99.9-Latency: 48.4] Total Latency(ns): Average: 5.4 99-Latency: 10.1 99.9-Latency: 15 Throughput(Mops): 0.0295266
+2024-04-27 05:47:21 INFO client_thread_func(...) Thread [1] Network Latency(ns): Average: 26.2 99-Latency: 39.6 99.9-Latency: 80.4] Total Latency(ns): Average: 5.4 99-Latency: 9.6 99.9-Latency: 16.4 Throughput(Mops): 0.0295256
+2024-04-27 05:47:22 INFO client_thread_func(...) Thread [3] Network Latency(ns): Average: 26.4 99-Latency: 38.4 99.9-Latency: 49.2] Total Latency(ns): Average: 5.3 99-Latency: 8.7 99.9-Latency: 15 Throughput(Mops): 0.0307184
+2024-04-27 05:47:22 INFO client_thread_func(...) Thread [0] Network Latency(ns): Average: 26.6 99-Latency: 39.6 99.9-Latency: 58.4] Total Latency(ns): Average: 5.3 99-Latency: 9.2 99.9-Latency: 18.2 Throughput(Mops): 0.0296826
+2024-04-27 05:47:22 INFO client_thread_func(...) Thread [7] Network Latency(ns): Average: 26.4 99-Latency: 38.4 99.9-Latency: 49.2] Total Latency(ns): Average: 5.3 99-Latency: 8.9 99.9-Latency: 15 Throughput(Mops): 0.0297916
+2024-04-27 05:47:22 INFO client_thread_func(...) Thread [6] Network Latency(ns): Average: 26.4 99-Latency: 38.8 99.9-Latency: 47.2] Total Latency(ns): Average: 5.3 99-Latency: 8.8 99.9-Latency: 16 Throughput(Mops): 0.0297896
+2024-04-27 05:47:22 INFO client_thread_func(...) Thread [2] Network Latency(ns): Average: 26.4 99-Latency: 38.2 99.9-Latency: 48.4] Total Latency(ns): Average: 5.4 99-Latency: 8.9 99.9-Latency: 15.4 Throughput(Mops): 0.0298006
+2024-04-27 05:47:22 INFO client_thread_func(...) Thread [4] Network Latency(ns): Average: 33.6 99-Latency: 48 99.9-Latency: 75.2] Total Latency(ns): Average: 8.9 99-Latency: 16.2 99.9-Latency: 26.6 Throughput(Mops): 0.0221871
+2024-04-27 05:47:22 INFO client_thread_func(...) Thread [5] Network Latency(ns): Average: 26.4 99-Latency: 38.4 99.9-Latency: 51.6] Total Latency(ns): Average: 5.4 99-Latency: 9 99.9-Latency: 15.6 Throughput(Mops): 0.0298025
+2024-04-27 05:47:22 INFO client_thread_func(...) Thread [1] Network Latency(ns): Average: 26.4 99-Latency: 38.4 99.9-Latency: 50] Total Latency(ns): Average: 5.4 99-Latency: 9 99.9-Latency: 15.8 Throughput(Mops): 0.0298015
+2024-04-27 05:47:23 INFO client_thread_func(...) Thread [3] Network Latency(ns): Average: 26.2 99-Latency: 38.8 99.9-Latency: 50] Total Latency(ns): Average: 0.3 99-Latency: 7.4 99.9-Latency: 10.1 Throughput(Mops): 0.0352696
+2024-04-27 05:47:23 INFO client_thread_func(...) Thread [0] Network Latency(ns): Average: 25.8 99-Latency: 38.8 99.9-Latency: 53.6] Total Latency(ns): Average: 0.3 99-Latency: 7.4 99.9-Latency: 10.8 Throughput(Mops): 0.0351566
+2024-04-27 05:47:23 INFO client_thread_func(...) Thread [7] Network Latency(ns): Average: 26 99-Latency: 38.2 99.9-Latency: 49.6] Total Latency(ns): Average: 0.3 99-Latency: 8 99.9-Latency: 13.6 Throughput(Mops): 0.0338727
+2024-04-27 05:47:23 INFO client_thread_func(...) Thread [6] Network Latency(ns): Average: 26 99-Latency: 38.4 99.9-Latency: 49.2] Total Latency(ns): Average: 0.3 99-Latency: 7.8 99.9-Latency: 11.9 Throughput(Mops): 0.0338456
+2024-04-27 05:47:23 INFO client_thread_func(...) Thread [2] Network Latency(ns): Average: 25.8 99-Latency: 38 99.9-Latency: 50] Total Latency(ns): Average: 0.3 99-Latency: 8.1 99.9-Latency: 12.8 Throughput(Mops): 0.0338496
+2024-04-27 05:47:23 INFO client_thread_func(...) Thread [4] Network Latency(ns): Average: 33.4 99-Latency: 48 99.9-Latency: 60.8] Total Latency(ns): Average: 8.7 99-Latency: 16 99.9-Latency: 25.6 Throughput(Mops): 0.0224974
+2024-04-27 05:47:23 INFO client_thread_func(...) Thread [5] Network Latency(ns): Average: 25.8 99-Latency: 38.2 99.9-Latency: 48] Total Latency(ns): Average: 0.3 99-Latency: 8 99.9-Latency: 13.2 Throughput(Mops): 0.0339496
+2024-04-27 05:47:23 INFO client_thread_func(...) Thread [1] Network Latency(ns): Average: 26 99-Latency: 38.4 99.9-Latency: 49.2] Total Latency(ns): Average: 0.3 99-Latency: 7.8 99.9-Latency: 13.2 Throughput(Mops): 0.0339487
+2024-04-27 05:47:24 INFO client_thread_func(...) Thread [3] Network Latency(ns): Average: 26.2 99-Latency: 38.8 99.9-Latency: 50] Total Latency(ns): Average: 0.3 99-Latency: 7.3 99.9-Latency: 9.7 Throughput(Mops): 0.0350906
+2024-04-27 05:47:24 INFO client_thread_func(...) Thread [0] Network Latency(ns): Average: 25.6 99-Latency: 38.4 99.9-Latency: 54.8] Total Latency(ns): Average: 0.3 99-Latency: 7.4 99.9-Latency: 10.9 Throughput(Mops): 0.0351855
+2024-04-27 05:47:24 INFO client_thread_func(...) Thread [7] Network Latency(ns): Average: 25.8 99-Latency: 38.2 99.9-Latency: 48.8] Total Latency(ns): Average: 0.3 99-Latency: 7 99.9-Latency: 9.5 Throughput(Mops): 0.0352067
+2024-04-27 05:47:24 INFO client_thread_func(...) Thread [6] Network Latency(ns): Average: 25.8 99-Latency: 38.4 99.9-Latency: 48.8] Total Latency(ns): Average: 0.3 99-Latency: 7 99.9-Latency: 9.6 Throughput(Mops): 0.0353756
+2024-04-27 05:47:24 INFO client_thread_func(...) Thread [2] Network Latency(ns): Average: 25.8 99-Latency: 38 99.9-Latency: 48.8] Total Latency(ns): Average: 0.3 99-Latency: 7.2 99.9-Latency: 9.7 Throughput(Mops): 0.0353827
+2024-04-27 05:47:24 INFO client_thread_func(...) Thread [4] Network Latency(ns): Average: 33.2 99-Latency: 47.6 99.9-Latency: 62] Total Latency(ns): Average: 8.6 99-Latency: 15.4 99.9-Latency: 26.4 Throughput(Mops): 0.0225714
+2024-04-27 05:47:24 INFO client_thread_func(...) Thread [5] Network Latency(ns): Average: 25.8 99-Latency: 38.2 99.9-Latency: 49.6] Total Latency(ns): Average: 0.3 99-Latency: 7.2 99.9-Latency: 9.7 Throughput(Mops): 0.0353865
+2024-04-27 05:47:24 INFO client_thread_func(...) Thread [1] Network Latency(ns): Average: 25.8 99-Latency: 38.4 99.9-Latency: 50] Total Latency(ns): Average: 0.3 99-Latency: 7.1 99.9-Latency: 9.5 Throughput(Mops): 0.0353337
+2024-04-27 05:47:25 INFO client_thread_func(...) Thread [3] Network Latency(ns): Average: 26.2 99-Latency: 39.2 99.9-Latency: 50.4] Total Latency(ns): Average: 0.3 99-Latency: 7.2 99.9-Latency: 10.6 Throughput(Mops): 0.0349656
+2024-04-27 05:47:25 INFO client_thread_func(...) Thread [0] Network Latency(ns): Average: 25.4 99-Latency: 38.4 99.9-Latency: 52] Total Latency(ns): Average: 0.3 99-Latency: 7.2 99.9-Latency: 10.9 Throughput(Mops): 0.0354255
+2024-04-27 05:47:25 INFO client_thread_func(...) Thread [7] Network Latency(ns): Average: 26 99-Latency: 38.8 99.9-Latency: 49.6] Total Latency(ns): Average: 0.3 99-Latency: 2.7 99.9-Latency: 3.4 Throughput(Mops): 0.0355276
+2024-04-27 05:47:25 INFO client_thread_func(...) Thread [6] Network Latency(ns): Average: 25.8 99-Latency: 38.4 99.9-Latency: 49.6] Total Latency(ns): Average: 0.3 99-Latency: 2.6 99.9-Latency: 3.3 Throughput(Mops): 0.0357747
+2024-04-27 05:47:25 INFO client_thread_func(...) Thread [2] Network Latency(ns): Average: 25.8 99-Latency: 38 99.9-Latency: 49.6] Total Latency(ns): Average: 0.3 99-Latency: 3 99.9-Latency: 3.8 Throughput(Mops): 0.0357667
+2024-04-27 05:47:25 INFO client_thread_func(...) Thread [4] Network Latency(ns): Average: 32.6 99-Latency: 46.8 99.9-Latency: 58] Total Latency(ns): Average: 0.6 99-Latency: 5.1 99.9-Latency: 11.4 Throughput(Mops): 0.0279055
+2024-04-27 05:47:25 INFO client_thread_func(...) Thread [5] Network Latency(ns): Average: 25.8 99-Latency: 38.8 99.9-Latency: 48.8] Total Latency(ns): Average: 0.3 99-Latency: 2.9 99.9-Latency: 3.7 Throughput(Mops): 0.0357656
+2024-04-27 05:47:25 INFO client_thread_func(...) Thread [1] Network Latency(ns): Average: 25.8 99-Latency: 38.4 99.9-Latency: 48] Total Latency(ns): Average: 0.3 99-Latency: 2.7 99.9-Latency: 3.2 Throughput(Mops): 0.0358187
+2024-04-27 05:47:26 INFO client_thread_func(...) Thread [3] Network Latency(ns): Average: 26.4 99-Latency: 39.2 99.9-Latency: 49.2] Total Latency(ns): Average: 0.3 99-Latency: 7.2 99.9-Latency: 11.1 Throughput(Mops): 0.0349266
+2024-04-27 05:47:26 INFO client_thread_func(...) Thread [0] Network Latency(ns): Average: 25.6 99-Latency: 38.8 99.9-Latency: 59.6] Total Latency(ns): Average: 0.3 99-Latency: 7.3 99.9-Latency: 11.6 Throughput(Mops): 0.0354776
+2024-04-27 05:47:26 INFO client_thread_func(...) Thread [7] Network Latency(ns): Average: 26.2 99-Latency: 39.2 99.9-Latency: 50.8] Total Latency(ns): Average: 0.3 99-Latency: 2.6 99.9-Latency: 3.4 Throughput(Mops): 0.0353997
+2024-04-27 05:47:26 INFO client_thread_func(...) Thread [6] Network Latency(ns): Average: 25.8 99-Latency: 38.4 99.9-Latency: 47.6] Total Latency(ns): Average: 0.3 99-Latency: 2.7 99.9-Latency: 3.4 Throughput(Mops): 0.0358517
+2024-04-27 05:47:26 INFO client_thread_func(...) Thread [2] Network Latency(ns): Average: 25.8 99-Latency: 38.4 99.9-Latency: 48.4] Total Latency(ns): Average: 0.3 99-Latency: 3 99.9-Latency: 6.8 Throughput(Mops): 0.0358607
+2024-04-27 05:47:26 INFO client_thread_func(...) Thread [4] Network Latency(ns): Average: 32.6 99-Latency: 47.2 99.9-Latency: 59.2] Total Latency(ns): Average: 0.6 99-Latency: 5.1 99.9-Latency: 9.3 Throughput(Mops): 0.0281086
+2024-04-27 05:47:26 INFO client_thread_func(...) Thread [5] Network Latency(ns): Average: 25.8 99-Latency: 38.4 99.9-Latency: 48.8] Total Latency(ns): Average: 0.3 99-Latency: 2.9 99.9-Latency: 3.6 Throughput(Mops): 0.0358747
+2024-04-27 05:47:26 INFO client_thread_func(...) Thread [1] Network Latency(ns): Average: 25.8 99-Latency: 39.6 99.9-Latency: 68.8] Total Latency(ns): Average: 0.3 99-Latency: 2.7 99.9-Latency: 3.4 Throughput(Mops): 0.0358607
+2024-04-27 05:47:27 INFO client_thread_func(...) Thread [3] Network Latency(ns): Average: 26 99-Latency: 38.4 99.9-Latency: 48.8] Total Latency(ns): Average: 0.3 99-Latency: 7.2 99.9-Latency: 10 Throughput(Mops): 0.0359257
+2024-04-27 05:47:27 INFO client_thread_func(...) Thread [0] Network Latency(ns): Average: 25.6 99-Latency: 38.4 99.9-Latency: 56.4] Total Latency(ns): Average: 0.3 99-Latency: 7.2 99.9-Latency: 11.6 Throughput(Mops): 0.0357955
+2024-04-27 05:47:27 INFO client_thread_func(...) Thread [7] Network Latency(ns): Average: 26.2 99-Latency: 38.4 99.9-Latency: 48.4] Total Latency(ns): Average: 0.3 99-Latency: 2.6 99.9-Latency: 3.2 Throughput(Mops): 0.0358427
+2024-04-27 05:47:27 INFO client_thread_func(...) Thread [6] Network Latency(ns): Average: 25.8 99-Latency: 38.4 99.9-Latency: 51.2] Total Latency(ns): Average: 0.3 99-Latency: 2.6 99.9-Latency: 3.4 Throughput(Mops): 0.0362806
+2024-04-27 05:47:27 INFO client_thread_func(...) Thread [2] Network Latency(ns): Average: 25.8 99-Latency: 38.2 99.9-Latency: 47.6] Total Latency(ns): Average: 0.3 99-Latency: 2.9 99.9-Latency: 3.7 Throughput(Mops): 0.0362787
+2024-04-27 05:47:27 INFO client_thread_func(...) Thread [4] Network Latency(ns): Average: 32.6 99-Latency: 46.4 99.9-Latency: 58] Total Latency(ns): Average: 0.6 99-Latency: 5.1 99.9-Latency: 7.7 Throughput(Mops): 0.0284915
+2024-04-27 05:47:27 INFO client_thread_func(...) Thread [5] Network Latency(ns): Average: 25.8 99-Latency: 38.2 99.9-Latency: 48.4] Total Latency(ns): Average: 0.3 99-Latency: 2.9 99.9-Latency: 3.6 Throughput(Mops): 0.0362597
+2024-04-27 05:47:27 INFO client_thread_func(...) Thread [1] Network Latency(ns): Average: 25.8 99-Latency: 38.4 99.9-Latency: 50.8] Total Latency(ns): Average: 0.3 99-Latency: 2.7 99.9-Latency: 3.4 Throughput(Mops): 0.0362647
+2024-04-27 05:47:28 INFO client_thread_func(...) Thread [3] Network Latency(ns): Average: 25.6 99-Latency: 38.4 99.9-Latency: 46.4] Total Latency(ns): Average: 0.3 99-Latency: 7.2 99.9-Latency: 10.3 Throughput(Mops): 0.0363447
+2024-04-27 05:47:28 INFO client_thread_func(...) Thread [0] Network Latency(ns): Average: 25.6 99-Latency: 38.4 99.9-Latency: 50] Total Latency(ns): Average: 0.3 99-Latency: 7.3 99.9-Latency: 12.3 Throughput(Mops): 0.0359816
+2024-04-27 05:47:28 INFO client_thread_func(...) Thread [7] Network Latency(ns): Average: 26.2 99-Latency: 38.8 99.9-Latency: 47.2] Total Latency(ns): Average: 0.3 99-Latency: 2.6 99.9-Latency: 3.3 Throughput(Mops): 0.0359117
+2024-04-27 05:47:28 INFO client_thread_func(...) Thread [6] Network Latency(ns): Average: 25.8 99-Latency: 38.4 99.9-Latency: 47.6] Total Latency(ns): Average: 0.3 99-Latency: 2.6 99.9-Latency: 3.3 Throughput(Mops): 0.0363636
+2024-04-27 05:47:28 INFO client_thread_func(...) Thread [2] Network Latency(ns): Average: 25.8 99-Latency: 38.4 99.9-Latency: 46.8] Total Latency(ns): Average: 0.3 99-Latency: 3 99.9-Latency: 4.1 Throughput(Mops): 0.0363657
+2024-04-27 05:47:28 INFO client_thread_func(...) Thread [4] Network Latency(ns): Average: 32.4 99-Latency: 46.8 99.9-Latency: 58.4] Total Latency(ns): Average: 0.6 99-Latency: 5.1 99.9-Latency: 6.3 Throughput(Mops): 0.0286223
+2024-04-27 05:47:28 INFO client_thread_func(...) Thread [5] Network Latency(ns): Average: 25.8 99-Latency: 38.2 99.9-Latency: 47.6] Total Latency(ns): Average: 0.3 99-Latency: 2.9 99.9-Latency: 3.7 Throughput(Mops): 0.0363857
+2024-04-27 05:47:28 INFO client_thread_func(...) Thread [1] Network Latency(ns): Average: 25.8 99-Latency: 38.4 99.9-Latency: 48.8] Total Latency(ns): Average: 0.3 99-Latency: 2.7 99.9-Latency: 3.4 Throughput(Mops): 0.0363887
+2024-04-27 05:47:29 INFO client_thread_func(...) Thread [3] Network Latency(ns): Average: 25.8 99-Latency: 38.4 99.9-Latency: 224] Total Latency(ns): Average: 0.3 99-Latency: 7.2 99.9-Latency: 10.3 Throughput(Mops): 0.0335806
+2024-04-27 05:47:29 INFO client_thread_func(...) Thread [0] Network Latency(ns): Average: 25.6 99-Latency: 39.2 99.9-Latency: 396.8] Total Latency(ns): Average: 0.3 99-Latency: 7.3 99.9-Latency: 11.6 Throughput(Mops): 0.0330316
+2024-04-27 05:47:29 INFO client_thread_func(...) Thread [7] Network Latency(ns): Average: 26.4 99-Latency: 38.8 99.9-Latency: 224] Total Latency(ns): Average: 0.3 99-Latency: 2.6 99.9-Latency: 3.3 Throughput(Mops): 0.0330407
+2024-04-27 05:47:29 INFO client_thread_func(...) Thread [6] Network Latency(ns): Average: 25.8 99-Latency: 38.8 99.9-Latency: 209.6] Total Latency(ns): Average: 0.3 99-Latency: 2.7 99.9-Latency: 3.2 Throughput(Mops): 0.0335357
+2024-04-27 05:47:29 INFO client_thread_func(...) Thread [2] Network Latency(ns): Average: 25.8 99-Latency: 38.4 99.9-Latency: 254.4] Total Latency(ns): Average: 0.3 99-Latency: 3 99.9-Latency: 3.7 Throughput(Mops): 0.0335247
+2024-04-27 05:47:29 INFO client_thread_func(...) Thread [4] Network Latency(ns): Average: 32.4 99-Latency: 47.2 99.9-Latency: 396.8] Total Latency(ns): Average: 0.6 99-Latency: 5.1 99.9-Latency: 7.6 Throughput(Mops): 0.0264674
+2024-04-27 05:47:29 INFO client_thread_func(...) Thread [5] Network Latency(ns): Average: 25.8 99-Latency: 38.8 99.9-Latency: 332.8] Total Latency(ns): Average: 0.3 99-Latency: 2.9 99.9-Latency: 3.9 Throughput(Mops): 0.0334796
+2024-04-27 05:47:29 INFO client_thread_func(...) Thread [1] Network Latency(ns): Average: 25.8 99-Latency: 38.8 99.9-Latency: 256] Total Latency(ns): Average: 0.3 99-Latency: 2.7 99.9-Latency: 3.4 Throughput(Mops): 0.0334337
+2024-04-27 05:47:30 INFO client_thread_func(...) Thread [3] Network Latency(ns): Average: 25.8 99-Latency: 38.4 99.9-Latency: 52] Total Latency(ns): Average: 0.3 99-Latency: 5.9 99.9-Latency: 8.5 Throughput(Mops): 0.0348606
+2024-04-27 05:47:30 INFO client_thread_func(...) Thread [0] Network Latency(ns): Average: 25.8 99-Latency: 38.8 99.9-Latency: 60] Total Latency(ns): Average: 0.3 99-Latency: 5.9 99.9-Latency: 8.9 Throughput(Mops): 0.0347037
+2024-04-27 05:47:30 INFO client_thread_func(...) Thread [7] Network Latency(ns): Average: 26.2 99-Latency: 39.2 99.9-Latency: 50] Total Latency(ns): Average: 0.3 99-Latency: 2.7 99.9-Latency: 3.3 Throughput(Mops): 0.0345537
+2024-04-27 05:47:30 INFO client_thread_func(...) Thread [6] Network Latency(ns): Average: 25.8 99-Latency: 38.4 99.9-Latency: 50.8] Total Latency(ns): Average: 0.3 99-Latency: 2.6 99.9-Latency: 3.2 Throughput(Mops): 0.0348737
+2024-04-27 05:47:30 INFO client_thread_func(...) Thread [2] Network Latency(ns): Average: 25.8 99-Latency: 38.4 99.9-Latency: 50] Total Latency(ns): Average: 0.3 99-Latency: 3 99.9-Latency: 3.7 Throughput(Mops): 0.0348837
+2024-04-27 05:47:30 INFO client_thread_func(...) Thread [4] Network Latency(ns): Average: 32.6 99-Latency: 47.2 99.9-Latency: 71.6] Total Latency(ns): Average: 0.6 99-Latency: 5.2 99.9-Latency: 8.4 Throughput(Mops): 0.0274315
+2024-04-27 05:47:30 INFO client_thread_func(...) Thread [5] Network Latency(ns): Average: 25.8 99-Latency: 38.8 99.9-Latency: 51.6] Total Latency(ns): Average: 0.3 99-Latency: 2.9 99.9-Latency: 3.9 Throughput(Mops): 0.0349396
+2024-04-27 05:47:30 INFO client_thread_func(...) Thread [1] Network Latency(ns): Average: 25.8 99-Latency: 38.4 99.9-Latency: 52.4] Total Latency(ns): Average: 0.3 99-Latency: 2.7 99.9-Latency: 3.5 Throughput(Mops): 0.0349787
+2024-04-27 05:47:31 INFO client_thread_func(...) Thread [3] Network Latency(ns): Average: 26 99-Latency: 38.4 99.9-Latency: 51.2] Total Latency(ns): Average: 0.3 99-Latency: 2.8 99.9-Latency: 3.6 Throughput(Mops): 0.0344466
+2024-04-27 05:47:31 INFO client_thread_func(...) Thread [0] Network Latency(ns): Average: 25.8 99-Latency: 38.8 99.9-Latency: 73.2] Total Latency(ns): Average: 0.3 99-Latency: 2.7 99.9-Latency: 3.5 Throughput(Mops): 0.0341626
+2024-04-27 05:47:31 INFO client_thread_func(...) Thread [7] Network Latency(ns): Average: 26 99-Latency: 38.4 99.9-Latency: 49.2] Total Latency(ns): Average: 0.3 99-Latency: 2.7 99.9-Latency: 3.4 Throughput(Mops): 0.0342746
+2024-04-27 05:47:31 INFO client_thread_func(...) Thread [6] Network Latency(ns): Average: 25.8 99-Latency: 38.4 99.9-Latency: 54.8] Total Latency(ns): Average: 0.3 99-Latency: 2.7 99.9-Latency: 3.4 Throughput(Mops): 0.0344586
+2024-04-27 05:47:31 INFO client_thread_func(...) Thread [2] Network Latency(ns): Average: 25.8 99-Latency: 38.4 99.9-Latency: 50] Total Latency(ns): Average: 0.3 99-Latency: 3 99.9-Latency: 3.8 Throughput(Mops): 0.0344726
+2024-04-27 05:47:31 INFO client_thread_func(...) Thread [4] Network Latency(ns): Average: 32.6 99-Latency: 46.4 99.9-Latency: 60.8] Total Latency(ns): Average: 0.6 99-Latency: 5.1 99.9-Latency: 6.4 Throughput(Mops): 0.0270905
+2024-04-27 05:47:31 INFO client_thread_func(...) Thread [5] Network Latency(ns): Average: 25.8 99-Latency: 38.4 99.9-Latency: 50.8] Total Latency(ns): Average: 0.3 99-Latency: 2.9 99.9-Latency: 3.6 Throughput(Mops): 0.0344626
+2024-04-27 05:47:31 INFO client_thread_func(...) Thread [1] Network Latency(ns): Average: 25.8 99-Latency: 38.4 99.9-Latency: 65.2] Total Latency(ns): Average: 0.3 99-Latency: 2.7 99.9-Latency: 3.4 Throughput(Mops): 0.0344187
+2024-04-27 05:47:32 INFO client_thread_func(...) Thread [3] Network Latency(ns): Average: 26 99-Latency: 39.2 99.9-Latency: 83.2] Total Latency(ns): Average: 0.3 99-Latency: 2.9 99.9-Latency: 3.6 Throughput(Mops): 0.0345256
+2024-04-27 05:47:32 INFO client_thread_func(...) Thread [0] Network Latency(ns): Average: 26 99-Latency: 39.6 99.9-Latency: 160] Total Latency(ns): Average: 0.3 99-Latency: 2.8 99.9-Latency: 3.6 Throughput(Mops): 0.0342466
+2024-04-27 05:47:32 INFO client_thread_func(...) Thread [7] Network Latency(ns): Average: 26.2 99-Latency: 39.2 99.9-Latency: 56.8] Total Latency(ns): Average: 0.3 99-Latency: 2.7 99.9-Latency: 3.5 Throughput(Mops): 0.0340477
+2024-04-27 05:47:32 INFO client_thread_func(...) Thread [6] Network Latency(ns): Average: 26 99-Latency: 39.2 99.9-Latency: 102.4] Total Latency(ns): Average: 0.3 99-Latency: 2.7 99.9-Latency: 3.5 Throughput(Mops): 0.0344907
+2024-04-27 05:47:32 INFO client_thread_func(...) Thread [2] Network Latency(ns): Average: 25.8 99-Latency: 38.8 99.9-Latency: 77.6] Total Latency(ns): Average: 0.3 99-Latency: 3 99.9-Latency: 3.8 Throughput(Mops): 0.0344887
+2024-04-27 05:47:32 INFO client_thread_func(...) Thread [4] Network Latency(ns): Average: 32.8 99-Latency: 47.6 99.9-Latency: 396.8] Total Latency(ns): Average: 0.6 99-Latency: 5.1 99.9-Latency: 7.4 Throughput(Mops): 0.0270514
+2024-04-27 05:47:32 INFO client_thread_func(...) Thread [5] Network Latency(ns): Average: 25.8 99-Latency: 38.8 99.9-Latency: 72.4] Total Latency(ns): Average: 0.3 99-Latency: 2.9 99.9-Latency: 4.6 Throughput(Mops): 0.0344936
+2024-04-27 05:47:32 INFO client_thread_func(...) Thread [1] Network Latency(ns): Average: 25.8 99-Latency: 39.2 99.9-Latency: 85.6] Total Latency(ns): Average: 0.3 99-Latency: 2.7 99.9-Latency: 3.4 Throughput(Mops): 0.0344477
+2024-04-27 05:47:33 INFO client_thread_func(...) Thread [3] Network Latency(ns): Average: 26 99-Latency: 38.4 99.9-Latency: 48.8] Total Latency(ns): Average: 0.3 99-Latency: 2.9 99.9-Latency: 3.5 Throughput(Mops): 0.0355876
+2024-04-27 05:47:33 INFO client_thread_func(...) Thread [0] Network Latency(ns): Average: 26 99-Latency: 39.2 99.9-Latency: 52] Total Latency(ns): Average: 0.3 99-Latency: 2.8 99.9-Latency: 3.5 Throughput(Mops): 0.0355997
+2024-04-27 05:47:33 INFO client_thread_func(...) Thread [7] Network Latency(ns): Average: 26.4 99-Latency: 39.2 99.9-Latency: 50] Total Latency(ns): Average: 0.3 99-Latency: 2.7 99.9-Latency: 3.2 Throughput(Mops): 0.0349677
+2024-04-27 05:47:33 INFO client_thread_func(...) Thread [6] Network Latency(ns): Average: 25.8 99-Latency: 38.4 99.9-Latency: 48.8] Total Latency(ns): Average: 0.3 99-Latency: 2.6 99.9-Latency: 3.2 Throughput(Mops): 0.0355987
+2024-04-27 05:47:33 INFO client_thread_func(...) Thread [2] Network Latency(ns): Average: 25.8 99-Latency: 38.4 99.9-Latency: 50.4] Total Latency(ns): Average: 0.3 99-Latency: 3 99.9-Latency: 3.9 Throughput(Mops): 0.0355857
+2024-04-27 05:47:33 INFO client_thread_func(...) Thread [4] Network Latency(ns): Average: 32.6 99-Latency: 46.8 99.9-Latency: 59.2] Total Latency(ns): Average: 0.6 99-Latency: 5.2 99.9-Latency: 11 Throughput(Mops): 0.0278975
+2024-04-27 05:47:33 INFO client_thread_func(...) Thread [5] Network Latency(ns): Average: 25.8 99-Latency: 38.4 99.9-Latency: 47.2] Total Latency(ns): Average: 0.3 99-Latency: 2.9 99.9-Latency: 3.8 Throughput(Mops): 0.0355866
+2024-04-27 05:47:33 INFO client_thread_func(...) Thread [1] Network Latency(ns): Average: 25.8 99-Latency: 38.4 99.9-Latency: 51.2] Total Latency(ns): Average: 0.3 99-Latency: 2.7 99.9-Latency: 3.5 Throughput(Mops): 0.0356387
+2024-04-27 05:47:34 INFO client_thread_func(...) Thread [3] Network Latency(ns): Average: 26 99-Latency: 38.4 99.9-Latency: 50.4] Total Latency(ns): Average: 0.3 99-Latency: 2.9 99.9-Latency: 3.6 Throughput(Mops): 0.0358556
+2024-04-27 05:47:34 INFO client_thread_func(...) Thread [0] Network Latency(ns): Average: 25.8 99-Latency: 38.8 99.9-Latency: 52.8] Total Latency(ns): Average: 0.3 99-Latency: 2.8 99.9-Latency: 3.5 Throughput(Mops): 0.0358877
+2024-04-27 05:47:34 INFO client_thread_func(...) Thread [7] Network Latency(ns): Average: 26.6 99-Latency: 39.2 99.9-Latency: 49.2] Total Latency(ns): Average: 0.3 99-Latency: 2.7 99.9-Latency: 3.3 Throughput(Mops): 0.0350147
+2024-04-27 05:47:34 INFO client_thread_func(...) Thread [6] Network Latency(ns): Average: 25.8 99-Latency: 38.8 99.9-Latency: 50.4] Total Latency(ns): Average: 0.3 99-Latency: 2.7 99.9-Latency: 3.3 Throughput(Mops): 0.0358287
+2024-04-27 05:47:34 INFO client_thread_func(...) Thread [2] Network Latency(ns): Average: 25.8 99-Latency: 38.4 99.9-Latency: 48.8] Total Latency(ns): Average: 0.3 99-Latency: 3 99.9-Latency: 3.8 Throughput(Mops): 0.0358517
+2024-04-27 05:47:34 INFO client_thread_func(...) Thread [4] Network Latency(ns): Average: 32.6 99-Latency: 47.6 99.9-Latency: 62] Total Latency(ns): Average: 0.6 99-Latency: 5.1 99.9-Latency: 6.5 Throughput(Mops): 0.0281175
+2024-04-27 05:47:34 INFO client_thread_func(...) Thread [5] Network Latency(ns): Average: 25.8 99-Latency: 38 99.9-Latency: 49.2] Total Latency(ns): Average: 0.3 99-Latency: 3 99.9-Latency: 4.1 Throughput(Mops): 0.0358477
+2024-04-27 05:47:34 INFO client_thread_func(...) Thread [1] Network Latency(ns): Average: 25.8 99-Latency: 38.4 99.9-Latency: 51.2] Total Latency(ns): Average: 0.3 99-Latency: 2.7 99.9-Latency: 3.4 Throughput(Mops): 0.0358707
+2024-04-27 05:47:35 INFO client_thread_func(...) Thread [3] Network Latency(ns): Average: 26 99-Latency: 38.4 99.9-Latency: 48] Total Latency(ns): Average: 0.3 99-Latency: 2.9 99.9-Latency: 3.7 Throughput(Mops): 0.0359466
+2024-04-27 05:47:35 INFO client_thread_func(...) Thread [0] Network Latency(ns): Average: 25.8 99-Latency: 38.8 99.9-Latency: 52.4] Total Latency(ns): Average: 0.3 99-Latency: 2.8 99.9-Latency: 3.6 Throughput(Mops): 0.0359687
+2024-04-27 05:47:35 INFO client_thread_func(...) Thread [7] Network Latency(ns): Average: 26.4 99-Latency: 39.2 99.9-Latency: 49.6] Total Latency(ns): Average: 0.3 99-Latency: 2.7 99.9-Latency: 3.4 Throughput(Mops): 0.0351647
+2024-04-27 05:47:35 INFO client_thread_func(...) Thread [6] Network Latency(ns): Average: 25.8 99-Latency: 38.4 99.9-Latency: 48.4] Total Latency(ns): Average: 0.3 99-Latency: 2.7 99.9-Latency: 3.3 Throughput(Mops): 0.0359705
+2024-04-27 05:47:35 INFO client_thread_func(...) Thread [2] Network Latency(ns): Average: 25.8 99-Latency: 38.4 99.9-Latency: 48] Total Latency(ns): Average: 0.3 99-Latency: 3 99.9-Latency: 3.8 Throughput(Mops): 0.0359487
+2024-04-27 05:47:35 INFO client_thread_func(...) Thread [4] Network Latency(ns): Average: 32.6 99-Latency: 46.8 99.9-Latency: 58.8] Total Latency(ns): Average: 0.6 99-Latency: 5.1 99.9-Latency: 6.6 Throughput(Mops): 0.0281985
+2024-04-27 05:47:35 INFO client_thread_func(...) Thread [5] Network Latency(ns): Average: 25.8 99-Latency: 38.4 99.9-Latency: 47.6] Total Latency(ns): Average: 0.3 99-Latency: 2.9 99.9-Latency: 3.8 Throughput(Mops): 0.0359657
+2024-04-27 05:47:35 INFO client_thread_func(...) Thread [1] Network Latency(ns): Average: 25.8 99-Latency: 38.8 99.9-Latency: 50] Total Latency(ns): Average: 0.3 99-Latency: 2.7 99.9-Latency: 3.3 Throughput(Mops): 0.0359567
+2024-04-27 05:47:36 INFO client_thread_func(...) Thread [3] Network Latency(ns): Average: 26 99-Latency: 38.8 99.9-Latency: 49.6] Total Latency(ns): Average: 0.3 99-Latency: 2.9 99.9-Latency: 3.6 Throughput(Mops): 0.0359296
+2024-04-27 05:47:36 INFO client_thread_func(...) Thread [0] Network Latency(ns): Average: 26 99-Latency: 38.8 99.9-Latency: 50.8] Total Latency(ns): Average: 0.3 99-Latency: 2.8 99.9-Latency: 3.6 Throughput(Mops): 0.0358817
+2024-04-27 05:47:36 INFO client_thread_func(...) Thread [7] Network Latency(ns): Average: 26.6 99-Latency: 39.6 99.9-Latency: 50.4] Total Latency(ns): Average: 0.3 99-Latency: 2.7 99.9-Latency: 3.3 Throughput(Mops): 0.0349767
+2024-04-27 05:47:36 INFO client_thread_func(...) Thread [6] Network Latency(ns): Average: 25.8 99-Latency: 38.4 99.9-Latency: 48] Total Latency(ns): Average: 0.3 99-Latency: 2.6 99.9-Latency: 3.4 Throughput(Mops): 0.0359247
+2024-04-27 05:47:36 INFO client_thread_func(...) Thread [2] Network Latency(ns): Average: 25.8 99-Latency: 37.8 99.9-Latency: 47.6] Total Latency(ns): Average: 0.3 99-Latency: 3 99.9-Latency: 3.8 Throughput(Mops): 0.0359217
+2024-04-27 05:47:36 INFO client_thread_func(...) Thread [4] Network Latency(ns): Average: 32.6 99-Latency: 46.8 99.9-Latency: 57.2] Total Latency(ns): Average: 0.6 99-Latency: 5.1 99.9-Latency: 8.3 Throughput(Mops): 0.0281295
+2024-04-27 05:47:36 INFO client_thread_func(...) Thread [5] Network Latency(ns): Average: 25.8 99-Latency: 38.2 99.9-Latency: 47.6] Total Latency(ns): Average: 0.3 99-Latency: 2.9 99.9-Latency: 3.7 Throughput(Mops): 0.0359237
+2024-04-27 05:47:36 INFO client_thread_func(...) Thread [1] Network Latency(ns): Average: 25.8 99-Latency: 38.8 99.9-Latency: 51.6] Total Latency(ns): Average: 0.3 99-Latency: 2.6 99.9-Latency: 3.2 Throughput(Mops): 0.0359237
+2024-04-27 05:47:37 INFO client_thread_func(...) Thread [3] Network Latency(ns): Average: 26 99-Latency: 38.4 99.9-Latency: 48] Total Latency(ns): Average: 0.3 99-Latency: 2.9 99.9-Latency: 3.6 Throughput(Mops): 0.0359537
+2024-04-27 05:47:37 INFO client_thread_func(...) Thread [0] Network Latency(ns): Average: 26 99-Latency: 39.2 99.9-Latency: 58] Total Latency(ns): Average: 0.3 99-Latency: 2.8 99.9-Latency: 3.3 Throughput(Mops): 0.0358626
+2024-04-27 05:47:37 INFO client_thread_func(...) Thread [7] Network Latency(ns): Average: 26.6 99-Latency: 38.8 99.9-Latency: 48.8] Total Latency(ns): Average: 0.3 99-Latency: 2.6 99.9-Latency: 3.3 Throughput(Mops): 0.0349977
+2024-04-27 05:47:37 INFO client_thread_func(...) Thread [6] Network Latency(ns): Average: 25.8 99-Latency: 38.4 99.9-Latency: 49.6] Total Latency(ns): Average: 0.3 99-Latency: 2.7 99.9-Latency: 3.3 Throughput(Mops): 0.0359407
+2024-04-27 05:47:37 INFO client_thread_func(...) Thread [2] Network Latency(ns): Average: 25.8 99-Latency: 38.2 99.9-Latency: 46.4] Total Latency(ns): Average: 0.3 99-Latency: 3 99.9-Latency: 3.6 Throughput(Mops): 0.0359547
+2024-04-27 05:47:37 INFO client_thread_func(...) Thread [4] Network Latency(ns): Average: 32.6 99-Latency: 46.4 99.9-Latency: 60.4] Total Latency(ns): Average: 0.6 99-Latency: 5.1 99.9-Latency: 6.7 Throughput(Mops): 0.0281925
+2024-04-27 05:47:37 INFO client_thread_func(...) Thread [5] Network Latency(ns): Average: 25.8 99-Latency: 38.4 99.9-Latency: 47.6] Total Latency(ns): Average: 0.3 99-Latency: 2.9 99.9-Latency: 3.7 Throughput(Mops): 0.0359527
+2024-04-27 05:47:37 INFO client_thread_func(...) Thread [1] Network Latency(ns): Average: 25.8 99-Latency: 38.4 99.9-Latency: 48.4] Total Latency(ns): Average: 0.3 99-Latency: 2.7 99.9-Latency: 3.4 Throughput(Mops): 0.0359617
+2024-04-27 05:47:38 INFO client_thread_func(...) Thread [3] Network Latency(ns): Average: 25.8 99-Latency: 38.4 99.9-Latency: 49.6] Total Latency(ns): Average: 0.3 99-Latency: 2.9 99.9-Latency: 3.5 Throughput(Mops): 0.0359487
+2024-04-27 05:47:38 INFO client_thread_func(...) Thread [0] Network Latency(ns): Average: 26 99-Latency: 39.2 99.9-Latency: 55.6] Total Latency(ns): Average: 0.3 99-Latency: 2.8 99.9-Latency: 3.5 Throughput(Mops): 0.0358197
+2024-04-27 05:47:38 INFO client_thread_func(...) Thread [7] Network Latency(ns): Average: 26.4 99-Latency: 39.2 99.9-Latency: 48.4] Total Latency(ns): Average: 0.3 99-Latency: 2.6 99.9-Latency: 3.5 Throughput(Mops): 0.0350927
+2024-04-27 05:47:38 INFO client_thread_func(...) Thread [6] Network Latency(ns): Average: 25.8 99-Latency: 38.8 99.9-Latency: 50] Total Latency(ns): Average: 0.3 99-Latency: 2.7 99.9-Latency: 3.4 Throughput(Mops): 0.0359477
+2024-04-27 05:47:38 INFO client_thread_func(...) Thread [2] Network Latency(ns): Average: 25.8 99-Latency: 38.2 99.9-Latency: 47.6] Total Latency(ns): Average: 0.3 99-Latency: 3 99.9-Latency: 3.7 Throughput(Mops): 0.0359497
+2024-04-27 05:47:38 INFO client_thread_func(...) Thread [4] Network Latency(ns): Average: 32.6 99-Latency: 46.8 99.9-Latency: 58] Total Latency(ns): Average: 0.6 99-Latency: 5.1 99.9-Latency: 6.2 Throughput(Mops): 0.0282445
+2024-04-27 05:47:38 INFO client_thread_func(...) Thread [5] Network Latency(ns): Average: 25.8 99-Latency: 38.4 99.9-Latency: 47.2] Total Latency(ns): Average: 0.3 99-Latency: 3 99.9-Latency: 3.6 Throughput(Mops): 0.0359456
+2024-04-27 05:47:38 INFO client_thread_func(...) Thread [1] Network Latency(ns): Average: 25.8 99-Latency: 38.4 99.9-Latency: 48.8] Total Latency(ns): Average: 0.3 99-Latency: 2.7 99.9-Latency: 3.5 Throughput(Mops): 0.0358996
+2024-04-27 05:47:39 INFO client_thread_func(...) Thread [3] Network Latency(ns): Average: 26 99-Latency: 38.4 99.9-Latency: 47.6] Total Latency(ns): Average: 0.3 99-Latency: 2.9 99.9-Latency: 3.6 Throughput(Mops): 0.0359947
+2024-04-27 05:47:39 INFO client_thread_func(...) Thread [0] Network Latency(ns): Average: 25.8 99-Latency: 38.8 99.9-Latency: 56.4] Total Latency(ns): Average: 0.3 99-Latency: 2.8 99.9-Latency: 3.4 Throughput(Mops): 0.0358716
+2024-04-27 05:47:39 INFO client_thread_func(...) Thread [7] Network Latency(ns): Average: 26.6 99-Latency: 39.2 99.9-Latency: 48.8] Total Latency(ns): Average: 0.3 99-Latency: 2.6 99.9-Latency: 3.3 Throughput(Mops): 0.0351057
+2024-04-27 05:47:39 INFO client_thread_func(...) Thread [6] Network Latency(ns): Average: 25.8 99-Latency: 38.8 99.9-Latency: 49.2] Total Latency(ns): Average: 0.3 99-Latency: 2.7 99.9-Latency: 3.2 Throughput(Mops): 0.0359987
+2024-04-27 05:47:39 INFO client_thread_func(...) Thread [2] Network Latency(ns): Average: 25.8 99-Latency: 38 99.9-Latency: 48.4] Total Latency(ns): Average: 0.3 99-Latency: 3 99.9-Latency: 3.8 Throughput(Mops): 0.0359867
+2024-04-27 05:47:39 INFO client_thread_func(...) Thread [4] Network Latency(ns): Average: 32.6 99-Latency: 47.2 99.9-Latency: 58.8] Total Latency(ns): Average: 0.6 99-Latency: 5.1 99.9-Latency: 6.9 Throughput(Mops): 0.0281694
+2024-04-27 05:47:39 INFO client_thread_func(...) Thread [5] Network Latency(ns): Average: 25.8 99-Latency: 38.8 99.9-Latency: 50.4] Total Latency(ns): Average: 0.3 99-Latency: 2.9 99.9-Latency: 3.8 Throughput(Mops): 0.0359836
+2024-04-27 05:47:39 INFO client_thread_func(...) Thread [1] Network Latency(ns): Average: 25.8 99-Latency: 38.4 99.9-Latency: 48.4] Total Latency(ns): Average: 0.3 99-Latency: 2.7 99.9-Latency: 3.4 Throughput(Mops): 0.0360307
+2024-04-27 05:47:40 INFO client_thread_func(...) Thread [3] Network Latency(ns): Average: 26 99-Latency: 38.8 99.9-Latency: 50.4] Total Latency(ns): Average: 0.3 99-Latency: 2.9 99.9-Latency: 3.6 Throughput(Mops): 0.0358706
+2024-04-27 05:47:40 INFO client_thread_func(...) Thread [0] Network Latency(ns): Average: 25.8 99-Latency: 39.2 99.9-Latency: 52] Total Latency(ns): Average: 0.3 99-Latency: 2.8 99.9-Latency: 3.5 Throughput(Mops): 0.0358107
+2024-04-27 05:47:40 INFO client_thread_func(...) Thread [7] Network Latency(ns): Average: 26.6 99-Latency: 39.2 99.9-Latency: 51.6] Total Latency(ns): Average: 0.3 99-Latency: 2.6 99.9-Latency: 3.4 Throughput(Mops): 0.0349867
+2024-04-27 05:47:40 INFO client_thread_func(...) Thread [6] Network Latency(ns): Average: 25.8 99-Latency: 38.4 99.9-Latency: 52] Total Latency(ns): Average: 0.3 99-Latency: 2.6 99.9-Latency: 3.3 Throughput(Mops): 0.0358687
+2024-04-27 05:47:40 INFO client_thread_func(...) Thread [2] Network Latency(ns): Average: 25.8 99-Latency: 38.8 99.9-Latency: 49.6] Total Latency(ns): Average: 0.3 99-Latency: 3 99.9-Latency: 3.9 Throughput(Mops): 0.0358747
+2024-04-27 05:47:40 INFO client_thread_func(...) Thread [4] Network Latency(ns): Average: 32.6 99-Latency: 47.2 99.9-Latency: 61.6] Total Latency(ns): Average: 0.6 99-Latency: 5.1 99.9-Latency: 6.3 Throughput(Mops): 0.0280785
+2024-04-27 05:47:40 INFO client_thread_func(...) Thread [5] Network Latency(ns): Average: 25.8 99-Latency: 38.8 99.9-Latency: 52.4] Total Latency(ns): Average: 0.3 99-Latency: 2.9 99.9-Latency: 3.7 Throughput(Mops): 0.0358856
+2024-04-27 05:47:40 INFO client_thread_func(...) Thread [1] Network Latency(ns): Average: 25.8 99-Latency: 38.4 99.9-Latency: 49.6] Total Latency(ns): Average: 0.3 99-Latency: 2.7 99.9-Latency: 3.5 Throughput(Mops): 0.0358806
+2024-04-27 05:47:41 INFO client_thread_func(...) Thread [3] Network Latency(ns): Average: 26 99-Latency: 38.2 99.9-Latency: 48.4] Total Latency(ns): Average: 0.3 99-Latency: 2.9 99.9-Latency: 3.5 Throughput(Mops): 0.0363337
+2024-04-27 05:47:41 INFO client_thread_func(...) Thread [0] Network Latency(ns): Average: 25.8 99-Latency: 38.8 99.9-Latency: 56] Total Latency(ns): Average: 0.3 99-Latency: 2.8 99.9-Latency: 3.5 Throughput(Mops): 0.0358307
+2024-04-27 05:47:41 INFO client_thread_func(...) Thread [7] Network Latency(ns): Average: 26.4 99-Latency: 39.2 99.9-Latency: 49.6] Total Latency(ns): Average: 0.3 99-Latency: 2.6 99.9-Latency: 3.3 Throughput(Mops): 0.0353657
+2024-04-27 05:47:41 INFO client_thread_func(...) Thread [6] Network Latency(ns): Average: 25.8 99-Latency: 38.2 99.9-Latency: 48.4] Total Latency(ns): Average: 0.3 99-Latency: 2.6 99.9-Latency: 3.2 Throughput(Mops): 0.0363265
+2024-04-27 05:47:41 INFO client_thread_func(...) Thread [2] Network Latency(ns): Average: 25.8 99-Latency: 38 99.9-Latency: 48.4] Total Latency(ns): Average: 0.3 99-Latency: 3 99.9-Latency: 3.8 Throughput(Mops): 0.0363247
+2024-04-27 05:47:41 INFO client_thread_func(...) Thread [4] Network Latency(ns): Average: 32.6 99-Latency: 46.4 99.9-Latency: 60.4] Total Latency(ns): Average: 0.6 99-Latency: 5.1 99.9-Latency: 6.3 Throughput(Mops): 0.0284425
+2024-04-27 05:47:41 INFO client_thread_func(...) Thread [5] Network Latency(ns): Average: 25.6 99-Latency: 38.2 99.9-Latency: 49.6] Total Latency(ns): Average: 0.3 99-Latency: 2.9 99.9-Latency: 3.7 Throughput(Mops): 0.0363356
+2024-04-27 05:47:41 INFO client_thread_func(...) Thread [1] Network Latency(ns): Average: 25.8 99-Latency: 38.4 99.9-Latency: 49.2] Total Latency(ns): Average: 0.3 99-Latency: 2.7 99.9-Latency: 3.5 Throughput(Mops): 0.0363267
+2024-04-27 05:47:42 INFO client_thread_func(...) Thread [3] Network Latency(ns): Average: 25.8 99-Latency: 38.4 99.9-Latency: 48.4] Total Latency(ns): Average: 0.3 99-Latency: 2.9 99.9-Latency: 3.6 Throughput(Mops): 0.0366176
+2024-04-27 05:47:42 INFO client_thread_func(...) Thread [0] Network Latency(ns): Average: 26 99-Latency: 39.2 99.9-Latency: 52.8] Total Latency(ns): Average: 0.3 99-Latency: 2.8 99.9-Latency: 3.4 Throughput(Mops): 0.0359386
+2024-04-27 05:47:42 INFO client_thread_func(...) Thread [7] Network Latency(ns): Average: 27.2 99-Latency: 39.6 99.9-Latency: 49.6] Total Latency(ns): Average: 0.3 99-Latency: 2.6 99.9-Latency: 3.2 Throughput(Mops): 0.0348367
+2024-04-27 05:47:42 INFO client_thread_func(...) Thread [6] Network Latency(ns): Average: 25.8 99-Latency: 38.2 99.9-Latency: 48] Total Latency(ns): Average: 0.3 99-Latency: 2.6 99.9-Latency: 3.4 Throughput(Mops): 0.0366097
+2024-04-27 05:47:42 INFO client_thread_func(...) Thread [2] Network Latency(ns): Average: 25.8 99-Latency: 38.2 99.9-Latency: 47.6] Total Latency(ns): Average: 0.3 99-Latency: 3 99.9-Latency: 3.8 Throughput(Mops): 0.0366037
+2024-04-27 05:47:42 INFO client_thread_func(...) Thread [4] Network Latency(ns): Average: 32.4 99-Latency: 46.8 99.9-Latency: 58.4] Total Latency(ns): Average: 0.6 99-Latency: 5 99.9-Latency: 7.8 Throughput(Mops): 0.0286965
+2024-04-27 05:47:42 INFO client_thread_func(...) Thread [5] Network Latency(ns): Average: 25.6 99-Latency: 38.4 99.9-Latency: 47.2] Total Latency(ns): Average: 0.3 99-Latency: 2.9 99.9-Latency: 10 Throughput(Mops): 0.0366107
+2024-04-27 05:47:42 INFO client_thread_func(...) Thread [1] Network Latency(ns): Average: 25.8 99-Latency: 38.4 99.9-Latency: 48.8] Total Latency(ns): Average: 0.3 99-Latency: 2.6 99.9-Latency: 3.2 Throughput(Mops): 0.0366107
+2024-04-27 05:47:43 INFO client_thread_func(...) Thread [3] Network Latency(ns): Average: 26 99-Latency: 38.4 99.9-Latency: 50.4] Total Latency(ns): Average: 0.3 99-Latency: 2.8 99.9-Latency: 3.6 Throughput(Mops): 0.0357056
+2024-04-27 05:47:43 INFO client_thread_func(...) Thread [0] Network Latency(ns): Average: 26 99-Latency: 39.6 99.9-Latency: 61.2] Total Latency(ns): Average: 0.3 99-Latency: 2.8 99.9-Latency: 3.4 Throughput(Mops): 0.0354147
+2024-04-27 05:47:43 INFO client_thread_func(...) Thread [7] Network Latency(ns): Average: 26.6 99-Latency: 39.6 99.9-Latency: 52.4] Total Latency(ns): Average: 0.3 99-Latency: 2.7 99.9-Latency: 3.3 Throughput(Mops): 0.0346817
+2024-04-27 05:47:43 INFO client_thread_func(...) Thread [6] Network Latency(ns): Average: 25.8 99-Latency: 38.8 99.9-Latency: 52] Total Latency(ns): Average: 0.3 99-Latency: 2.6 99.9-Latency: 3.3 Throughput(Mops): 0.0357146
+2024-04-27 05:47:43 INFO client_thread_func(...) Thread [2] Network Latency(ns): Average: 25.8 99-Latency: 38.4 99.9-Latency: 50.4] Total Latency(ns): Average: 0.3 99-Latency: 3 99.9-Latency: 3.6 Throughput(Mops): 0.0357137
+2024-04-27 05:47:43 INFO client_thread_func(...) Thread [4] Network Latency(ns): Average: 32.6 99-Latency: 47.2 99.9-Latency: 64.8] Total Latency(ns): Average: 0.6 99-Latency: 5.1 99.9-Latency: 7.2 Throughput(Mops): 0.0279376
+2024-04-27 05:47:43 INFO client_thread_func(...) Thread [5] Network Latency(ns): Average: 25.8 99-Latency: 38.4 99.9-Latency: 50.4] Total Latency(ns): Average: 0.3 99-Latency: 2.9 99.9-Latency: 3.6 Throughput(Mops): 0.0356617
+2024-04-27 05:47:43 INFO client_thread_func(...) Thread [1] Network Latency(ns): Average: 25.8 99-Latency: 38.8 99.9-Latency: 57.2] Total Latency(ns): Average: 0.3 99-Latency: 2.7 99.9-Latency: 3.2 Throughput(Mops): 0.0356927
+2024-04-27 05:47:44 INFO client_thread_func(...) Thread [3] Network Latency(ns): Average: 26 99-Latency: 39.2 99.9-Latency: 70] Total Latency(ns): Average: 0.3 99-Latency: 2.9 99.9-Latency: 3.6 Throughput(Mops): 0.0347246
+2024-04-27 05:47:44 INFO client_thread_func(...) Thread [0] Network Latency(ns): Average: 26 99-Latency: 39.6 99.9-Latency: 84.8] Total Latency(ns): Average: 0.3 99-Latency: 2.8 99.9-Latency: 3.5 Throughput(Mops): 0.0347795
+2024-04-27 05:47:44 INFO client_thread_func(...) Thread [7] Network Latency(ns): Average: 26.6 99-Latency: 39.6 99.9-Latency: 65.2] Total Latency(ns): Average: 0.3 99-Latency: 2.7 99.9-Latency: 3.3 Throughput(Mops): 0.0339147
+2024-04-27 05:47:44 INFO client_thread_func(...) Thread [6] Network Latency(ns): Average: 25.8 99-Latency: 38.8 99.9-Latency: 57.6] Total Latency(ns): Average: 0.3 99-Latency: 2.7 99.9-Latency: 3.3 Throughput(Mops): 0.0347247
+2024-04-27 05:47:44 INFO client_thread_func(...) Thread [2] Network Latency(ns): Average: 25.8 99-Latency: 38.8 99.9-Latency: 60.8] Total Latency(ns): Average: 0.3 99-Latency: 3 99.9-Latency: 3.7 Throughput(Mops): 0.0347237
+2024-04-27 05:47:44 INFO client_thread_func(...) Thread [4] Network Latency(ns): Average: 32.6 99-Latency: 47.6 99.9-Latency: 104.8] Total Latency(ns): Average: 0.6 99-Latency: 5.2 99.9-Latency: 11.7 Throughput(Mops): 0.0272525
+2024-04-27 05:47:44 INFO client_thread_func(...) Thread [5] Network Latency(ns): Average: 25.8 99-Latency: 39.2 99.9-Latency: 68.4] Total Latency(ns): Average: 0.3 99-Latency: 2.9 99.9-Latency: 3.6 Throughput(Mops): 0.0347806
+2024-04-27 05:47:44 INFO client_thread_func(...) Thread [1] Network Latency(ns): Average: 25.8 99-Latency: 39.2 99.9-Latency: 66.8] Total Latency(ns): Average: 0.3 99-Latency: 2.7 99.9-Latency: 3.5 Throughput(Mops): 0.0347566
+2024-04-27 05:47:45 INFO client_thread_func(...) Thread [3] Network Latency(ns): Average: 26 99-Latency: 38.8 99.9-Latency: 50.8] Total Latency(ns): Average: 0.3 99-Latency: 2.9 99.9-Latency: 3.7 Throughput(Mops): 0.0357217
+2024-04-27 05:47:45 INFO client_thread_func(...) Thread [0] Network Latency(ns): Average: 26 99-Latency: 39.2 99.9-Latency: 51.2] Total Latency(ns): Average: 0.3 99-Latency: 2.8 99.9-Latency: 3.5 Throughput(Mops): 0.0352567
+2024-04-27 05:47:45 INFO client_thread_func(...) Thread [7] Network Latency(ns): Average: 26.6 99-Latency: 39.6 99.9-Latency: 50] Total Latency(ns): Average: 0.3 99-Latency: 2.6 99.9-Latency: 3.5 Throughput(Mops): 0.0346896
+2024-04-27 05:47:45 INFO client_thread_func(...) Thread [6] Network Latency(ns): Average: 25.8 99-Latency: 38.8 99.9-Latency: 50.4] Total Latency(ns): Average: 0.3 99-Latency: 2.7 99.9-Latency: 3.4 Throughput(Mops): 0.0357167
+2024-04-27 05:47:45 INFO client_thread_func(...) Thread [2] Network Latency(ns): Average: 25.8 99-Latency: 38.4 99.9-Latency: 47.6] Total Latency(ns): Average: 0.3 99-Latency: 3 99.9-Latency: 3.7 Throughput(Mops): 0.0356737
+2024-04-27 05:47:45 INFO client_thread_func(...) Thread [4] Network Latency(ns): Average: 32.6 99-Latency: 46.8 99.9-Latency: 62.8] Total Latency(ns): Average: 0.6 99-Latency: 5.1 99.9-Latency: 8.6 Throughput(Mops): 0.0279833
+2024-04-27 05:47:45 INFO client_thread_func(...) Thread [5] Network Latency(ns): Average: 25.8 99-Latency: 39.2 99.9-Latency: 49.2] Total Latency(ns): Average: 0.3 99-Latency: 2.9 99.9-Latency: 3.7 Throughput(Mops): 0.0357127
+2024-04-27 05:47:45 INFO client_thread_func(...) Thread [1] Network Latency(ns): Average: 25.8 99-Latency: 38.8 99.9-Latency: 52] Total Latency(ns): Average: 0.3 99-Latency: 2.7 99.9-Latency: 3.4 Throughput(Mops): 0.0357117
+2024-04-27 05:47:46 INFO client_thread_func(...) Thread [3] Network Latency(ns): Average: 25.8 99-Latency: 38.8 99.9-Latency: 50] Total Latency(ns): Average: 0.3 99-Latency: 2.9 99.9-Latency: 3.6 Throughput(Mops): 0.0350366
+2024-04-27 05:47:46 INFO client_thread_func(...) Thread [0] Network Latency(ns): Average: 25.8 99-Latency: 38.8 99.9-Latency: 52] Total Latency(ns): Average: 0.3 99-Latency: 2.8 99.9-Latency: 3.5 Throughput(Mops): 0.0345416
+2024-04-27 05:47:46 INFO client_thread_func(...) Thread [7] Network Latency(ns): Average: 26.6 99-Latency: 39.2 99.9-Latency: 48.8] Total Latency(ns): Average: 0.3 99-Latency: 2.7 99.9-Latency: 3.2 Throughput(Mops): 0.0341186
+2024-04-27 05:47:46 INFO client_thread_func(...) Thread [6] Network Latency(ns): Average: 25.8 99-Latency: 38.4 99.9-Latency: 49.6] Total Latency(ns): Average: 0.3 99-Latency: 2.6 99.9-Latency: 3.2 Throughput(Mops): 0.0350177
+2024-04-27 05:47:46 INFO client_thread_func(...) Thread [2] Network Latency(ns): Average: 25.8 99-Latency: 38.4 99.9-Latency: 46.8] Total Latency(ns): Average: 0.3 99-Latency: 2.9 99.9-Latency: 3.7 Throughput(Mops): 0.0350776
+2024-04-27 05:47:46 INFO client_thread_func(...) Thread [4] Network Latency(ns): Average: 32.6 99-Latency: 47.2 99.9-Latency: 58.8] Total Latency(ns): Average: 0.6 99-Latency: 5.1 99.9-Latency: 6.8 Throughput(Mops): 0.0274285
+2024-04-27 05:47:46 INFO client_thread_func(...) Thread [5] Network Latency(ns): Average: 25.8 99-Latency: 38.8 99.9-Latency: 48] Total Latency(ns): Average: 0.3 99-Latency: 2.9 99.9-Latency: 3.7 Throughput(Mops): 0.0350416
+2024-04-27 05:47:46 INFO client_thread_func(...) Thread [1] Network Latency(ns): Average: 25.8 99-Latency: 38.4 99.9-Latency: 51.2] Total Latency(ns): Average: 0.3 99-Latency: 2.7 99.9-Latency: 3.3 Throughput(Mops): 0.0350236
+2024-04-27 05:47:47 INFO client_thread_func(...) Exiting event loop because of experiment finished
+2024-04-27 05:47:47 INFO client_thread_func(...) Exiting event loop because of experiment finished
+2024-04-27 05:47:47 INFO client_thread_func(...) Exiting event loop because of experiment finished
+2024-04-27 05:47:47 INFO client_thread_func(...) Exiting event loop because of experiment finished
+2024-04-27 05:47:47 INFO client_thread_func(...) Exiting event loop because of experiment finished
+2024-04-27 05:47:47 INFO client_thread_func(...) Exiting event loop because of experiment finished
+2024-04-27 05:47:47 INFO client_thread_func(...) Exiting event loop because of experiment finished
+2024-04-27 05:47:47 INFO client_thread_func(...) Exiting event loop because of experiment finished
+./scripts/do.sh: line 79: 29188 Segmentation fault      sudo -E env LD_LIBRARY_PATH=$LD_LIBRARY_PATH numactl --cpunodebind=$numa_node --membind=$numa_node ./build/apps/$autorun_app $(cat $config) --process_id $epid --numa_node $numa_node

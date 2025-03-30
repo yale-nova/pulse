@@ -1,0 +1,8 @@
+2024-04-15 22:08:14 INFO main(...) [Inter] Number of queries_per_thread: 1000000
+2024-04-15 22:08:14 INFO main(...) [Inter] Pointer chasing takes: 219.819 seconds to execute queries 
+2024-04-15 22:08:14 INFO main(...) [Inter] Non pointer chasing takes: 22.2082 seconds to execute queries 
+2024-04-15 22:08:14 INFO main(...) [Inter] Percentage for ptr chasing: 0.908241
+2024-04-15 22:08:14 INFO main(...) [Inter] Percentage non ptr chasing: 0.091759
+2024-04-15 22:08:40 INFO main(...) [0] Takes 267.606 seconds to execute queries /var/data/ycsbe_query_1
+2024-04-15 22:08:40 INFO main(...) [0] Pointer chasing takes: 242662621429 nanoseconds to execute queries 
+2024-04-15 22:08:40 INFO main(...) [0] Non pointer chasing takes: 24648854594 nanoseconds to execute queries

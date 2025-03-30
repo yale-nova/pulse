@@ -1,0 +1,8 @@
+--num_keys 300000000
+--num_queries 1000000
+--data_filepath /var/data/yupeng/ycsbc_key_3
+--query_filepath /var/data/yupeng/ycsbc_query_3
+--capacity 268435456
+--max_load_factor 2
+--bucket_layout=true
+--bucket_layout_path /var/data/yupeng/hashtable_bucket_layout_3

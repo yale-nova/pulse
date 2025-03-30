@@ -1,0 +1,10 @@
+2024-04-18 09:14:21 INFO main(...) [Inter] Pointer chasing takes: 3.51563 seconds to execute queries 
+2024-04-18 09:14:21 INFO main(...) [Inter] Non pointer chasing takes: 6.00136 seconds to execute queries 
+2024-04-18 09:14:21 INFO main(...) [Inter] Percentage for ptr chasing: 0.369406
+2024-04-18 09:14:21 INFO main(...) [Inter] Percentage non ptr chasing: 0.630594
+2024-04-18 09:14:22 INFO main(...) [0] Takes 11.1337 seconds to execute queries /var/data/btrdb_query_1_zipf
+2024-04-18 09:14:22 INFO main(...) [0] Pointer chasing takes: 3906548278 nanoseconds to execute queries 
+2024-04-18 09:14:22 INFO main(...) [0] Non pointer chasing takes: 7130041765 nanoseconds to execute queries 
+2024-04-18 09:14:22 INFO main(...) [Final] Percentage for ptr chasing: 0.353963
+2024-04-18 09:14:22 INFO main(...) [Final] Percentage non ptr chasing: 0.646037
+

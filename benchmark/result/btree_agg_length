@@ -1,0 +1,95 @@
+2024-04-18 09:47:35 INFO main(...) Insert progress: 0 out of 250000000
+2024-04-18 09:47:41 INFO main(...) Insert progress: 10000000 out of 250000000
+2024-04-18 09:47:47 INFO main(...) Insert progress: 20000000 out of 250000000
+2024-04-18 09:47:54 INFO main(...) Insert progress: 30000000 out of 250000000
+2024-04-18 09:48:01 INFO main(...) Insert progress: 40000000 out of 250000000
+2024-04-18 09:48:07 INFO main(...) Insert progress: 50000000 out of 250000000
+2024-04-18 09:48:14 INFO main(...) Insert progress: 60000000 out of 250000000
+2024-04-18 09:48:21 INFO main(...) Insert progress: 70000000 out of 250000000
+2024-04-18 09:48:27 INFO main(...) Insert progress: 80000000 out of 250000000
+2024-04-18 09:48:34 INFO main(...) Insert progress: 90000000 out of 250000000
+2024-04-18 09:48:41 INFO main(...) Insert progress: 100000000 out of 250000000
+2024-04-18 09:48:49 INFO main(...) Insert progress: 110000000 out of 250000000
+2024-04-18 09:48:56 INFO main(...) Insert progress: 120000000 out of 250000000
+2024-04-18 09:49:03 INFO main(...) Insert progress: 130000000 out of 250000000
+2024-04-18 09:49:10 INFO main(...) Insert progress: 140000000 out of 250000000
+2024-04-18 09:49:17 INFO main(...) Insert progress: 150000000 out of 250000000
+2024-04-18 09:49:24 INFO main(...) Insert progress: 160000000 out of 250000000
+2024-04-18 09:49:31 INFO main(...) Insert progress: 170000000 out of 250000000
+2024-04-18 09:49:38 INFO main(...) Insert progress: 180000000 out of 250000000
+2024-04-18 09:49:45 INFO main(...) Insert progress: 190000000 out of 250000000
+2024-04-18 09:49:52 INFO main(...) Insert progress: 200000000 out of 250000000
+2024-04-18 09:49:59 INFO main(...) Insert progress: 210000000 out of 250000000
+2024-04-18 09:50:07 INFO main(...) Insert progress: 220000000 out of 250000000
+2024-04-18 09:50:15 INFO main(...) Insert progress: 230000000 out of 250000000
+2024-04-18 09:50:22 INFO main(...) Insert progress: 240000000 out of 250000000
+2024-04-18 09:50:29 INFO main(...) Takes 694 nanoseconds on average to insert a key
+Tree size = 19.9454 GB
+Depth of B+Tree is: 11 with 0.418182 full
+The all_keys vector size is 0, and its capacity is 0
+2024-04-18 09:50:29 INFO main(...) Takes 0 seconds to generate B+Tree layout.
+2024-04-18 09:50:30 INFO main(...) Query progress: 0 out of 1000000
+2024-04-18 09:50:30 INFO main(...) Query progress: 100000 out of 1000000
+2024-04-18 09:50:31 INFO main(...) Query progress: 200000 out of 1000000
+2024-04-18 09:50:31 INFO main(...) Query progress: 300000 out of 1000000
+2024-04-18 09:50:32 INFO main(...) Query progress: 400000 out of 1000000
+2024-04-18 09:50:32 INFO main(...) Query progress: 500000 out of 1000000
+2024-04-18 09:50:33 INFO main(...) Query progress: 600000 out of 1000000
+2024-04-18 09:50:33 INFO main(...) Query progress: 700000 out of 1000000
+2024-04-18 09:50:34 INFO main(...) Query progress: 800000 out of 1000000
+2024-04-18 09:50:34 INFO main(...) Query progress: 900000 out of 1000000
+2024-04-18 09:50:35 INFO main(...) [1000000000] Takes 4 seconds to run query.
+2024-04-18 09:50:35 INFO main(...) [1000000000] Average number of nodes traversed: 38
+2024-04-18 09:50:35 INFO main(...) [1000000000] Average number of keys traversed: 154
+2024-04-18 09:50:35 INFO main(...) Query progress: 0 out of 1000000
+2024-04-18 09:50:35 INFO main(...) Query progress: 100000 out of 1000000
+2024-04-18 09:50:36 INFO main(...) Query progress: 200000 out of 1000000
+2024-04-18 09:50:36 INFO main(...) Query progress: 300000 out of 1000000
+2024-04-18 09:50:37 INFO main(...) Query progress: 400000 out of 1000000
+2024-04-18 09:50:37 INFO main(...) Query progress: 500000 out of 1000000
+2024-04-18 09:50:38 INFO main(...) Query progress: 600000 out of 1000000
+2024-04-18 09:50:39 INFO main(...) Query progress: 700000 out of 1000000
+2024-04-18 09:50:39 INFO main(...) Query progress: 800000 out of 1000000
+2024-04-18 09:50:40 INFO main(...) Query progress: 900000 out of 1000000
+2024-04-18 09:50:40 INFO main(...) [2000000000] Takes 5 seconds to run query.
+2024-04-18 09:50:40 INFO main(...) [2000000000] Average number of nodes traversed: 65
+2024-04-18 09:50:40 INFO main(...) [2000000000] Average number of keys traversed: 262
+2024-04-18 09:50:40 INFO main(...) Query progress: 0 out of 1000000
+2024-04-18 09:50:41 INFO main(...) Query progress: 100000 out of 1000000
+2024-04-18 09:50:42 INFO main(...) Query progress: 200000 out of 1000000
+2024-04-18 09:50:43 INFO main(...) Query progress: 300000 out of 1000000
+2024-04-18 09:50:44 INFO main(...) Query progress: 400000 out of 1000000
+2024-04-18 09:50:45 INFO main(...) Query progress: 500000 out of 1000000
+2024-04-18 09:50:46 INFO main(...) Query progress: 600000 out of 1000000
+2024-04-18 09:50:47 INFO main(...) Query progress: 700000 out of 1000000
+2024-04-18 09:50:48 INFO main(...) Query progress: 800000 out of 1000000
+2024-04-18 09:50:49 INFO main(...) Query progress: 900000 out of 1000000
+2024-04-18 09:50:50 INFO main(...) [4000000000] Takes 9 seconds to run query.
+2024-04-18 09:50:50 INFO main(...) [4000000000] Average number of nodes traversed: 119
+2024-04-18 09:50:50 INFO main(...) [4000000000] Average number of keys traversed: 478
+2024-04-18 09:50:50 INFO main(...) Query progress: 0 out of 1000000
+2024-04-18 09:50:51 INFO main(...) Query progress: 100000 out of 1000000
+2024-04-18 09:50:53 INFO main(...) Query progress: 200000 out of 1000000
+2024-04-18 09:50:54 INFO main(...) Query progress: 300000 out of 1000000
+2024-04-18 09:50:56 INFO main(...) Query progress: 400000 out of 1000000
+2024-04-18 09:50:57 INFO main(...) Query progress: 500000 out of 1000000
+2024-04-18 09:50:58 INFO main(...) Query progress: 600000 out of 1000000
+2024-04-18 09:51:00 INFO main(...) Query progress: 700000 out of 1000000
+2024-04-18 09:51:01 INFO main(...) Query progress: 800000 out of 1000000
+2024-04-18 09:51:03 INFO main(...) Query progress: 900000 out of 1000000
+2024-04-18 09:51:04 INFO main(...) [8000000000] Takes 14 seconds to run query.
+2024-04-18 09:51:04 INFO main(...) [8000000000] Average number of nodes traversed: 227
+2024-04-18 09:51:04 INFO main(...) [8000000000] Average number of keys traversed: 910
+2024-04-18 09:51:04 INFO main(...) Query progress: 0 out of 1000000
+2024-04-18 09:51:07 INFO main(...) Query progress: 100000 out of 1000000
+2024-04-18 09:51:10 INFO main(...) Query progress: 200000 out of 1000000
+2024-04-18 09:51:12 INFO main(...) Query progress: 300000 out of 1000000
+2024-04-18 09:51:15 INFO main(...) Query progress: 400000 out of 1000000
+2024-04-18 09:51:18 INFO main(...) Query progress: 500000 out of 1000000
+2024-04-18 09:51:21 INFO main(...) Query progress: 600000 out of 1000000
+2024-04-18 09:51:23 INFO main(...) Query progress: 700000 out of 1000000
+2024-04-18 09:51:26 INFO main(...) Query progress: 800000 out of 1000000
+2024-04-18 09:51:29 INFO main(...) Query progress: 900000 out of 1000000
+2024-04-18 09:51:31 INFO main(...) [16000000000] Takes 27 seconds to run query.
+2024-04-18 09:51:31 INFO main(...) [16000000000] Average number of nodes traversed: 443
+2024-04-18 09:51:31 INFO main(...) [16000000000] Average number of keys traversed: 1774

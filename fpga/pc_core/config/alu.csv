@@ -1,0 +1,16 @@
+0000,add
+0001,sub
+0010,mul
+0011,div
+0100,left shift
+0101,right shift
+0110,and
+0111,or
+1000,XOR
+1001,nor
+1010,nand
+1011,nxor
+1100,BG
+1101,equal
+1110,
+1111,

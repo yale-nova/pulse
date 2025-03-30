@@ -1,0 +1,7 @@
+--num_keys 750000000
+--num_queries 1000000
+--data_filepath /var/data/yupeng/btrdb_key_3
+--query_filepath /var/data/yupeng/btrdb_query_3
+--layout_filepath /var/data/yupeng/btrdb_layout_3
+--print_layout=true
+--generator=true

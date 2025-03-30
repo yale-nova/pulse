@@ -1,0 +1,5 @@
+--num_server_threads 1
+--num_keys 100000000
+--num_queries 1000000
+--data_filepath /var/data/ycsbc_key_1_zipf
+--query_filepath /var/data/ycsbc_query_1_zipf

@@ -1,0 +1,9 @@
+--test_ms 200000000
+--resp_size 40
+--req_size 40
+--num_client_threads 1
+--num_server_threads 1
+--num_keys 1000000
+--num_queries 1000000
+--data_filepath /var/data/ycsbc_key_test
+--query_filepath /var/data/ycsbc_query_test

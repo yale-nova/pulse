@@ -1,0 +1,14 @@
+--test_ms 200000000
+--resp_size 8
+--req_size 40
+--num_client_threads 32
+--num_server_threads 32
+--numa_0_ports 0
+--numa_1_ports 0
+--num_keys 500000000
+--num_queries 1000000
+--data_filepath /var/data/yupeng/btrdb_key_1
+--query_filepath /var/data/yupeng/btrdb_query_1
+--datapath_verbose 0
+--window_size 1
+--agg_query 8000000000

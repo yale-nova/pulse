@@ -1,0 +1,22 @@
+[33mdo.sh: Launching process 1 on NUMA node 0[m
+2024-04-28 01:27:31 INFO main(...) Load all queries 1000000
+2024-04-28 01:27:31 INFO main(...) Each cache has 89478485 bytes
+2024-04-28 01:27:31 INFO main(...) Caches set up
+Invalid log level: 0
+EAL: invalid parameters for --log-level
+EAL: Detected CPU lcores: 24
+EAL: Detected NUMA nodes: 1
+EAL: Auto-detected process type: PRIMARY
+EAL: Detected static linkage of DPDK
+EAL: Multi-process socket /var/run/dpdk/rte/mp_socket
+EAL: Selected IOVA mode 'PA'
+EAL: No available 1048576 kB hugepages reported
+EAL: VFIO support initialized
+EAL: Probe PCI driver: mlx5_pci (15b3:a2d6) device: 0000:00:08.0 (socket 0)
+EAL: Probe PCI driver: mlx5_pci (15b3:a2d6) device: 0000:00:09.0 (socket 0)
+TELEMETRY: No legacy callbacks, legacy socket not created
+52:744807 WARNG: Running as primary DPDK process. eRPC DPDK daemon is not running.
+53:361477 ERROR: DPDK transport for Rpc 16 failed to get a free TX/RQ queue pair. All 16 available queue pairs are in use by Rpc objects.
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Failed to get DPDK QP
+./scripts/do.sh: line 79:  4132 Aborted                 sudo -E env LD_LIBRARY_PATH=$LD_LIBRARY_PATH numactl --cpunodebind=$numa_node --membind=$numa_node ./build/apps/$autorun_app $(cat $config) --process_id $epid --numa_node $numa_node

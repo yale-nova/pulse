@@ -1,0 +1,266 @@
+2024-04-18 05:38:33 INFO main(...) Insert progress: 0 out of 500000000
+2024-04-18 05:38:44 INFO main(...) Insert progress: 10000000 out of 500000000
+2024-04-18 05:38:59 INFO main(...) Insert progress: 20000000 out of 500000000
+2024-04-18 05:39:15 INFO main(...) Insert progress: 30000000 out of 500000000
+2024-04-18 05:39:33 INFO main(...) Insert progress: 40000000 out of 500000000
+2024-04-18 05:39:50 INFO main(...) Insert progress: 50000000 out of 500000000
+2024-04-18 05:40:09 INFO main(...) Insert progress: 60000000 out of 500000000
+2024-04-18 05:40:28 INFO main(...) Insert progress: 70000000 out of 500000000
+2024-04-18 05:40:48 INFO main(...) Insert progress: 80000000 out of 500000000
+2024-04-18 05:41:09 INFO main(...) Insert progress: 90000000 out of 500000000
+2024-04-18 05:41:30 INFO main(...) Insert progress: 100000000 out of 500000000
+2024-04-18 05:41:51 INFO main(...) Insert progress: 110000000 out of 500000000
+2024-04-18 05:42:12 INFO main(...) Insert progress: 120000000 out of 500000000
+2024-04-18 05:42:34 INFO main(...) Insert progress: 130000000 out of 500000000
+2024-04-18 05:42:56 INFO main(...) Insert progress: 140000000 out of 500000000
+2024-04-18 05:43:18 INFO main(...) Insert progress: 150000000 out of 500000000
+2024-04-18 05:43:40 INFO main(...) Insert progress: 160000000 out of 500000000
+2024-04-18 05:44:03 INFO main(...) Insert progress: 170000000 out of 500000000
+2024-04-18 05:44:27 INFO main(...) Insert progress: 180000000 out of 500000000
+2024-04-18 05:44:51 INFO main(...) Insert progress: 190000000 out of 500000000
+2024-04-18 05:45:15 INFO main(...) Insert progress: 200000000 out of 500000000
+2024-04-18 05:45:39 INFO main(...) Insert progress: 210000000 out of 500000000
+2024-04-18 05:46:04 INFO main(...) Insert progress: 220000000 out of 500000000
+2024-04-18 05:46:29 INFO main(...) Insert progress: 230000000 out of 500000000
+2024-04-18 05:46:53 INFO main(...) Insert progress: 240000000 out of 500000000
+2024-04-18 05:47:19 INFO main(...) Insert progress: 250000000 out of 500000000
+2024-04-18 05:47:44 INFO main(...) Insert progress: 260000000 out of 500000000
+2024-04-18 05:48:09 INFO main(...) Insert progress: 270000000 out of 500000000
+2024-04-18 05:48:35 INFO main(...) Insert progress: 280000000 out of 500000000
+2024-04-18 05:49:00 INFO main(...) Insert progress: 290000000 out of 500000000
+2024-04-18 05:49:26 INFO main(...) Insert progress: 300000000 out of 500000000
+2024-04-18 05:49:52 INFO main(...) Insert progress: 310000000 out of 500000000
+2024-04-18 05:50:18 INFO main(...) Insert progress: 320000000 out of 500000000
+2024-04-18 05:50:45 INFO main(...) Insert progress: 330000000 out of 500000000
+2024-04-18 05:51:12 INFO main(...) Insert progress: 340000000 out of 500000000
+2024-04-18 05:51:38 INFO main(...) Insert progress: 350000000 out of 500000000
+2024-04-18 05:52:04 INFO main(...) Insert progress: 360000000 out of 500000000
+2024-04-18 05:52:31 INFO main(...) Insert progress: 370000000 out of 500000000
+2024-04-18 05:52:57 INFO main(...) Insert progress: 380000000 out of 500000000
+2024-04-18 05:53:23 INFO main(...) Insert progress: 390000000 out of 500000000
+2024-04-18 05:53:49 INFO main(...) Insert progress: 400000000 out of 500000000
+2024-04-18 05:54:15 INFO main(...) Insert progress: 410000000 out of 500000000
+2024-04-18 05:54:42 INFO main(...) Insert progress: 420000000 out of 500000000
+2024-04-18 05:55:08 INFO main(...) Insert progress: 430000000 out of 500000000
+2024-04-18 05:55:35 INFO main(...) Insert progress: 440000000 out of 500000000
+2024-04-18 05:56:01 INFO main(...) Insert progress: 450000000 out of 500000000
+2024-04-18 05:56:27 INFO main(...) Insert progress: 460000000 out of 500000000
+2024-04-18 05:56:53 INFO main(...) Insert progress: 470000000 out of 500000000
+2024-04-18 05:57:19 INFO main(...) Insert progress: 480000000 out of 500000000
+2024-04-18 05:57:45 INFO main(...) Insert progress: 490000000 out of 500000000
+2024-04-18 05:58:11 INFO main(...) Takes 2356 nanoseconds on average to insert a key
+Tree size = 23.6521 GB
+Depth of B+Tree is: 10 with 0.54 full
+The all_keys vector size is 0, and its capacity is 0
+2024-04-18 05:58:11 INFO main(...) Takes 0 seconds to generate B+Tree layout.
+2024-04-18 05:58:12 INFO main(...) Query progress: 0 out of 1000000
+2024-04-18 05:58:13 INFO main(...) Query progress: 100000 out of 1000000
+2024-04-18 05:58:15 INFO main(...) Query progress: 200000 out of 1000000
+2024-04-18 05:58:16 INFO main(...) Query progress: 300000 out of 1000000
+2024-04-18 05:58:17 INFO main(...) Query progress: 400000 out of 1000000
+2024-04-18 05:58:19 INFO main(...) Query progress: 500000 out of 1000000
+2024-04-18 05:58:20 INFO main(...) Query progress: 600000 out of 1000000
+2024-04-18 05:58:21 INFO main(...) Query progress: 700000 out of 1000000
+2024-04-18 05:58:23 INFO main(...) Query progress: 800000 out of 1000000
+2024-04-18 05:58:24 INFO main(...) Query progress: 900000 out of 1000000
+2024-04-18 05:58:25 INFO main(...) Takes 14 seconds to run query.
+2024-04-18 05:58:25 INFO main(...) Scan length: 92 average number of nodes traversed: 24
+2024-04-18 05:58:25 INFO main(...) Scan length: 92 average number of keys traversed: 146
+2024-04-18 05:58:25 INFO main(...) Scan length: 6 average number of nodes traversed: 10
+2024-04-18 05:58:25 INFO main(...) Scan length: 6 average number of keys traversed: 60
+2024-04-18 05:58:25 INFO main(...) Scan length: 11 average number of nodes traversed: 11
+2024-04-18 05:58:25 INFO main(...) Scan length: 11 average number of keys traversed: 64
+2024-04-18 05:58:25 INFO main(...) Scan length: 36 average number of nodes traversed: 15
+2024-04-18 05:58:25 INFO main(...) Scan length: 36 average number of keys traversed: 89
+2024-04-18 05:58:25 INFO main(...) Scan length: 39 average number of nodes traversed: 16
+2024-04-18 05:58:25 INFO main(...) Scan length: 39 average number of keys traversed: 92
+2024-04-18 05:58:25 INFO main(...) Scan length: 80 average number of nodes traversed: 22
+2024-04-18 05:58:25 INFO main(...) Scan length: 80 average number of keys traversed: 134
+2024-04-18 05:58:25 INFO main(...) Scan length: 2 average number of nodes traversed: 10
+2024-04-18 05:58:25 INFO main(...) Scan length: 2 average number of keys traversed: 56
+2024-04-18 05:58:25 INFO main(...) Scan length: 43 average number of nodes traversed: 16
+2024-04-18 05:58:25 INFO main(...) Scan length: 43 average number of keys traversed: 97
+2024-04-18 05:58:25 INFO main(...) Scan length: 5 average number of nodes traversed: 10
+2024-04-18 05:58:25 INFO main(...) Scan length: 5 average number of keys traversed: 59
+2024-04-18 05:58:25 INFO main(...) Scan length: 48 average number of nodes traversed: 17
+2024-04-18 05:58:25 INFO main(...) Scan length: 48 average number of keys traversed: 101
+2024-04-18 05:58:25 INFO main(...) Scan length: 56 average number of nodes traversed: 18
+2024-04-18 05:58:25 INFO main(...) Scan length: 56 average number of keys traversed: 109
+2024-04-18 05:58:25 INFO main(...) Scan length: 61 average number of nodes traversed: 19
+2024-04-18 05:58:25 INFO main(...) Scan length: 61 average number of keys traversed: 114
+2024-04-18 05:58:25 INFO main(...) Scan length: 65 average number of nodes traversed: 20
+2024-04-18 05:58:25 INFO main(...) Scan length: 65 average number of keys traversed: 118
+2024-04-18 05:58:25 INFO main(...) Scan length: 89 average number of nodes traversed: 23
+2024-04-18 05:58:25 INFO main(...) Scan length: 89 average number of keys traversed: 143
+2024-04-18 05:58:25 INFO main(...) Scan length: 70 average number of nodes traversed: 20
+2024-04-18 05:58:25 INFO main(...) Scan length: 70 average number of keys traversed: 124
+2024-04-18 05:58:25 INFO main(...) Scan length: 15 average number of nodes traversed: 12
+2024-04-18 05:58:25 INFO main(...) Scan length: 15 average number of keys traversed: 69
+2024-04-18 05:58:25 INFO main(...) Scan length: 7 average number of nodes traversed: 11
+2024-04-18 05:58:25 INFO main(...) Scan length: 7 average number of keys traversed: 61
+2024-04-18 05:58:25 INFO main(...) Scan length: 34 average number of nodes traversed: 15
+2024-04-18 05:58:25 INFO main(...) Scan length: 34 average number of keys traversed: 88
+2024-04-18 05:58:25 INFO main(...) Scan length: 84 average number of nodes traversed: 23
+2024-04-18 05:58:25 INFO main(...) Scan length: 84 average number of keys traversed: 137
+2024-04-18 05:58:25 INFO main(...) Scan length: 26 average number of nodes traversed: 14
+2024-04-18 05:58:25 INFO main(...) Scan length: 26 average number of keys traversed: 80
+2024-04-18 05:58:25 INFO main(...) Scan length: 4 average number of nodes traversed: 10
+2024-04-18 05:58:25 INFO main(...) Scan length: 4 average number of keys traversed: 58
+2024-04-18 05:58:25 INFO main(...) Scan length: 27 average number of nodes traversed: 14
+2024-04-18 05:58:25 INFO main(...) Scan length: 27 average number of keys traversed: 80
+2024-04-18 05:58:25 INFO main(...) Scan length: 51 average number of nodes traversed: 18
+2024-04-18 05:58:25 INFO main(...) Scan length: 51 average number of keys traversed: 105
+2024-04-18 05:58:25 INFO main(...) Scan length: 14 average number of nodes traversed: 12
+2024-04-18 05:58:25 INFO main(...) Scan length: 14 average number of keys traversed: 68
+2024-04-18 05:58:25 INFO main(...) Scan length: 55 average number of nodes traversed: 18
+2024-04-18 05:58:25 INFO main(...) Scan length: 55 average number of keys traversed: 109
+2024-04-18 05:58:25 INFO main(...) Scan length: 30 average number of nodes traversed: 14
+2024-04-18 05:58:25 INFO main(...) Scan length: 30 average number of keys traversed: 84
+2024-04-18 05:58:25 INFO main(...) Scan length: 69 average number of nodes traversed: 20
+2024-04-18 05:58:25 INFO main(...) Scan length: 69 average number of keys traversed: 122
+2024-04-18 05:58:25 INFO main(...) Scan length: 74 average number of nodes traversed: 21
+2024-04-18 05:58:25 INFO main(...) Scan length: 74 average number of keys traversed: 127
+2024-04-18 05:58:25 INFO main(...) Scan length: 52 average number of nodes traversed: 18
+2024-04-18 05:58:25 INFO main(...) Scan length: 52 average number of keys traversed: 105
+2024-04-18 05:58:25 INFO main(...) Scan length: 60 average number of nodes traversed: 19
+2024-04-18 05:58:25 INFO main(...) Scan length: 60 average number of keys traversed: 114
+2024-04-18 05:58:25 INFO main(...) Scan length: 22 average number of nodes traversed: 13
+2024-04-18 05:58:25 INFO main(...) Scan length: 22 average number of keys traversed: 76
+2024-04-18 05:58:25 INFO main(...) Scan length: 68 average number of nodes traversed: 20
+2024-04-18 05:58:25 INFO main(...) Scan length: 68 average number of keys traversed: 122
+2024-04-18 05:58:25 INFO main(...) Scan length: 50 average number of nodes traversed: 17
+2024-04-18 05:58:25 INFO main(...) Scan length: 50 average number of keys traversed: 103
+2024-04-18 05:58:25 INFO main(...) Scan length: 93 average number of nodes traversed: 24
+2024-04-18 05:58:25 INFO main(...) Scan length: 93 average number of keys traversed: 146
+2024-04-18 05:58:25 INFO main(...) Scan length: 87 average number of nodes traversed: 23
+2024-04-18 05:58:25 INFO main(...) Scan length: 87 average number of keys traversed: 141
+2024-04-18 05:58:25 INFO main(...) Scan length: 88 average number of nodes traversed: 23
+2024-04-18 05:58:25 INFO main(...) Scan length: 88 average number of keys traversed: 142
+2024-04-18 05:58:25 INFO main(...) Scan length: 23 average number of nodes traversed: 13
+2024-04-18 05:58:25 INFO main(...) Scan length: 23 average number of keys traversed: 76
+2024-04-18 05:58:25 INFO main(...) Scan length: 46 average number of nodes traversed: 17
+2024-04-18 05:58:25 INFO main(...) Scan length: 46 average number of keys traversed: 99
+2024-04-18 05:58:25 INFO main(...) Scan length: 37 average number of nodes traversed: 15
+2024-04-18 05:58:25 INFO main(...) Scan length: 37 average number of keys traversed: 91
+2024-04-18 05:58:25 INFO main(...) Scan length: 77 average number of nodes traversed: 22
+2024-04-18 05:58:25 INFO main(...) Scan length: 77 average number of keys traversed: 131
+2024-04-18 05:58:25 INFO main(...) Scan length: 98 average number of nodes traversed: 25
+2024-04-18 05:58:25 INFO main(...) Scan length: 98 average number of keys traversed: 151
+2024-04-18 05:58:25 INFO main(...) Scan length: 94 average number of nodes traversed: 24
+2024-04-18 05:58:25 INFO main(...) Scan length: 94 average number of keys traversed: 148
+2024-04-18 05:58:25 INFO main(...) Scan length: 35 average number of nodes traversed: 15
+2024-04-18 05:58:25 INFO main(...) Scan length: 35 average number of keys traversed: 89
+2024-04-18 05:58:25 INFO main(...) Scan length: 45 average number of nodes traversed: 17
+2024-04-18 05:58:25 INFO main(...) Scan length: 45 average number of keys traversed: 98
+2024-04-18 05:58:25 INFO main(...) Scan length: 16 average number of nodes traversed: 12
+2024-04-18 05:58:25 INFO main(...) Scan length: 16 average number of keys traversed: 69
+2024-04-18 05:58:25 INFO main(...) Scan length: 75 average number of nodes traversed: 21
+2024-04-18 05:58:25 INFO main(...) Scan length: 75 average number of keys traversed: 129
+2024-04-18 05:58:25 INFO main(...) Scan length: 83 average number of nodes traversed: 23
+2024-04-18 05:58:25 INFO main(...) Scan length: 83 average number of keys traversed: 137
+2024-04-18 05:58:25 INFO main(...) Scan length: 24 average number of nodes traversed: 13
+2024-04-18 05:58:25 INFO main(...) Scan length: 24 average number of keys traversed: 78
+2024-04-18 05:58:25 INFO main(...) Scan length: 19 average number of nodes traversed: 12
+2024-04-18 05:58:25 INFO main(...) Scan length: 19 average number of keys traversed: 73
+2024-04-18 05:58:25 INFO main(...) Scan length: 78 average number of nodes traversed: 22
+2024-04-18 05:58:25 INFO main(...) Scan length: 78 average number of keys traversed: 132
+2024-04-18 05:58:25 INFO main(...) Scan length: 17 average number of nodes traversed: 12
+2024-04-18 05:58:25 INFO main(...) Scan length: 17 average number of keys traversed: 71
+2024-04-18 05:58:25 INFO main(...) Scan length: 76 average number of nodes traversed: 21
+2024-04-18 05:58:25 INFO main(...) Scan length: 76 average number of keys traversed: 130
+2024-04-18 05:58:25 INFO main(...) Scan length: 40 average number of nodes traversed: 16
+2024-04-18 05:58:25 INFO main(...) Scan length: 40 average number of keys traversed: 94
+2024-04-18 05:58:25 INFO main(...) Scan length: 99 average number of nodes traversed: 25
+2024-04-18 05:58:25 INFO main(...) Scan length: 99 average number of keys traversed: 153
+2024-04-18 05:58:25 INFO main(...) Scan length: 47 average number of nodes traversed: 17
+2024-04-18 05:58:25 INFO main(...) Scan length: 47 average number of keys traversed: 100
+2024-04-18 05:58:25 INFO main(...) Scan length: 18 average number of nodes traversed: 12
+2024-04-18 05:58:25 INFO main(...) Scan length: 18 average number of keys traversed: 72
+2024-04-18 05:58:25 INFO main(...) Scan length: 66 average number of nodes traversed: 20
+2024-04-18 05:58:25 INFO main(...) Scan length: 66 average number of keys traversed: 120
+2024-04-18 05:58:25 INFO main(...) Scan length: 8 average number of nodes traversed: 11
+2024-04-18 05:58:25 INFO main(...) Scan length: 8 average number of keys traversed: 62
+2024-04-18 05:58:25 INFO main(...) Scan length: 67 average number of nodes traversed: 20
+2024-04-18 05:58:25 INFO main(...) Scan length: 67 average number of keys traversed: 121
+2024-04-18 05:58:25 INFO main(...) Scan length: 42 average number of nodes traversed: 16
+2024-04-18 05:58:25 INFO main(...) Scan length: 42 average number of keys traversed: 95
+2024-04-18 05:58:25 INFO main(...) Scan length: 100 average number of nodes traversed: 25
+2024-04-18 05:58:25 INFO main(...) Scan length: 100 average number of keys traversed: 154
+2024-04-18 05:58:25 INFO main(...) Scan length: 41 average number of nodes traversed: 16
+2024-04-18 05:58:25 INFO main(...) Scan length: 41 average number of keys traversed: 94
+2024-04-18 05:58:25 INFO main(...) Scan length: 33 average number of nodes traversed: 15
+2024-04-18 05:58:25 INFO main(...) Scan length: 33 average number of keys traversed: 87
+2024-04-18 05:58:25 INFO main(...) Scan length: 72 average number of nodes traversed: 21
+2024-04-18 05:58:25 INFO main(...) Scan length: 72 average number of keys traversed: 125
+2024-04-18 05:58:25 INFO main(...) Scan length: 13 average number of nodes traversed: 12
+2024-04-18 05:58:25 INFO main(...) Scan length: 13 average number of keys traversed: 66
+2024-04-18 05:58:25 INFO main(...) Scan length: 31 average number of nodes traversed: 14
+2024-04-18 05:58:25 INFO main(...) Scan length: 31 average number of keys traversed: 85
+2024-04-18 05:58:25 INFO main(...) Scan length: 90 average number of nodes traversed: 24
+2024-04-18 05:58:25 INFO main(...) Scan length: 90 average number of keys traversed: 143
+2024-04-18 05:58:25 INFO main(...) Scan length: 96 average number of nodes traversed: 25
+2024-04-18 05:58:25 INFO main(...) Scan length: 96 average number of keys traversed: 150
+2024-04-18 05:58:25 INFO main(...) Scan length: 82 average number of nodes traversed: 22
+2024-04-18 05:58:25 INFO main(...) Scan length: 82 average number of keys traversed: 135
+2024-04-18 05:58:25 INFO main(...) Scan length: 53 average number of nodes traversed: 18
+2024-04-18 05:58:25 INFO main(...) Scan length: 53 average number of keys traversed: 107
+2024-04-18 05:58:25 INFO main(...) Scan length: 28 average number of nodes traversed: 14
+2024-04-18 05:58:25 INFO main(...) Scan length: 28 average number of keys traversed: 82
+2024-04-18 05:58:25 INFO main(...) Scan length: 20 average number of nodes traversed: 13
+2024-04-18 05:58:25 INFO main(...) Scan length: 20 average number of keys traversed: 73
+2024-04-18 05:58:25 INFO main(...) Scan length: 79 average number of nodes traversed: 22
+2024-04-18 05:58:25 INFO main(...) Scan length: 79 average number of keys traversed: 133
+2024-04-18 05:58:25 INFO main(...) Scan length: 49 average number of nodes traversed: 17
+2024-04-18 05:58:25 INFO main(...) Scan length: 49 average number of keys traversed: 103
+2024-04-18 05:58:25 INFO main(...) Scan length: 21 average number of nodes traversed: 13
+2024-04-18 05:58:25 INFO main(...) Scan length: 21 average number of keys traversed: 74
+2024-04-18 05:58:25 INFO main(...) Scan length: 63 average number of nodes traversed: 19
+2024-04-18 05:58:25 INFO main(...) Scan length: 63 average number of keys traversed: 117
+2024-04-18 05:58:25 INFO main(...) Scan length: 1 average number of nodes traversed: 10
+2024-04-18 05:58:25 INFO main(...) Scan length: 1 average number of keys traversed: 55
+2024-04-18 05:58:25 INFO main(...) Scan length: 57 average number of nodes traversed: 18
+2024-04-18 05:58:25 INFO main(...) Scan length: 57 average number of keys traversed: 111
+2024-04-18 05:58:25 INFO main(...) Scan length: 38 average number of nodes traversed: 15
+2024-04-18 05:58:25 INFO main(...) Scan length: 38 average number of keys traversed: 92
+2024-04-18 05:58:25 INFO main(...) Scan length: 97 average number of nodes traversed: 25
+2024-04-18 05:58:25 INFO main(...) Scan length: 97 average number of keys traversed: 151
+2024-04-18 05:58:25 INFO main(...) Scan length: 29 average number of nodes traversed: 14
+2024-04-18 05:58:25 INFO main(...) Scan length: 29 average number of keys traversed: 83
+2024-04-18 05:58:25 INFO main(...) Scan length: 62 average number of nodes traversed: 19
+2024-04-18 05:58:25 INFO main(...) Scan length: 62 average number of keys traversed: 115
+2024-04-18 05:58:25 INFO main(...) Scan length: 3 average number of nodes traversed: 10
+2024-04-18 05:58:25 INFO main(...) Scan length: 3 average number of keys traversed: 57
+2024-04-18 05:58:25 INFO main(...) Scan length: 64 average number of nodes traversed: 20
+2024-04-18 05:58:25 INFO main(...) Scan length: 64 average number of keys traversed: 118
+2024-04-18 05:58:25 INFO main(...) Scan length: 58 average number of nodes traversed: 19
+2024-04-18 05:58:25 INFO main(...) Scan length: 58 average number of keys traversed: 112
+2024-04-18 05:58:25 INFO main(...) Scan length: 9 average number of nodes traversed: 11
+2024-04-18 05:58:25 INFO main(...) Scan length: 9 average number of keys traversed: 63
+2024-04-18 05:58:25 INFO main(...) Scan length: 59 average number of nodes traversed: 19
+2024-04-18 05:58:25 INFO main(...) Scan length: 59 average number of keys traversed: 113
+2024-04-18 05:58:25 INFO main(...) Scan length: 85 average number of nodes traversed: 23
+2024-04-18 05:58:25 INFO main(...) Scan length: 85 average number of keys traversed: 139
+2024-04-18 05:58:25 INFO main(...) Scan length: 12 average number of nodes traversed: 11
+2024-04-18 05:58:25 INFO main(...) Scan length: 12 average number of keys traversed: 65
+2024-04-18 05:58:25 INFO main(...) Scan length: 71 average number of nodes traversed: 21
+2024-04-18 05:58:25 INFO main(...) Scan length: 71 average number of keys traversed: 125
+2024-04-18 05:58:25 INFO main(...) Scan length: 73 average number of nodes traversed: 21
+2024-04-18 05:58:25 INFO main(...) Scan length: 73 average number of keys traversed: 127
+2024-04-18 05:58:25 INFO main(...) Scan length: 32 average number of nodes traversed: 15
+2024-04-18 05:58:25 INFO main(...) Scan length: 32 average number of keys traversed: 86
+2024-04-18 05:58:25 INFO main(...) Scan length: 91 average number of nodes traversed: 24
+2024-04-18 05:58:25 INFO main(...) Scan length: 91 average number of keys traversed: 145
+2024-04-18 05:58:25 INFO main(...) Scan length: 44 average number of nodes traversed: 16
+2024-04-18 05:58:25 INFO main(...) Scan length: 44 average number of keys traversed: 97
+2024-04-18 05:58:25 INFO main(...) Scan length: 10 average number of nodes traversed: 11
+2024-04-18 05:58:25 INFO main(...) Scan length: 10 average number of keys traversed: 64
+2024-04-18 05:58:25 INFO main(...) Scan length: 25 average number of nodes traversed: 13
+2024-04-18 05:58:25 INFO main(...) Scan length: 25 average number of keys traversed: 79
+2024-04-18 05:58:25 INFO main(...) Scan length: 81 average number of nodes traversed: 22
+2024-04-18 05:58:25 INFO main(...) Scan length: 81 average number of keys traversed: 134
+2024-04-18 05:58:25 INFO main(...) Scan length: 95 average number of nodes traversed: 24
+2024-04-18 05:58:25 INFO main(...) Scan length: 95 average number of keys traversed: 148
+2024-04-18 05:58:25 INFO main(...) Scan length: 86 average number of nodes traversed: 23
+2024-04-18 05:58:25 INFO main(...) Scan length: 86 average number of keys traversed: 140
+2024-04-18 05:58:25 INFO main(...) Scan length: 54 average number of nodes traversed: 18
+2024-04-18 05:58:25 INFO main(...) Scan length: 54 average number of keys traversed: 108

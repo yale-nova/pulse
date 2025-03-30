@@ -1,0 +1,8 @@
+--num_keys 1000000
+--num_queries 1000000
+--data_filepath /var/data/ycsbc_key_test
+--query_filepath /var/data/ycsbc_query_test
+--capacity 524288
+--max_load_factor 2
+--bucket_layout=true
+--bucket_layout_path /var/data/hashtable_bucket_layout_test

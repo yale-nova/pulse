@@ -1,0 +1,6 @@
+--num_keys 250000000
+--num_queries 1000000
+--data_filepath /var/data/btrdb_key_1
+--query_filepath /var/data/btrdb_query_1_zipf
+--plotter_filepath /root/pulse/docker-swap/btrdb/
+--agg_length 1000000000

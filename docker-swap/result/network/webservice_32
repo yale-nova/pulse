@@ -1,0 +1,10 @@
+2024-04-14 06:14:45 INFO thread_work(...) [Inter] Pointer chasing takes: 1.51414 seconds to execute queries 
+2024-04-14 06:14:45 INFO thread_work(...) [Inter] Non pointer chasing takes: 9.62757 seconds to execute queries 
+2024-04-14 06:14:45 INFO thread_work(...) [Inter] Percentage for ptr chasing: 0.135898
+2024-04-14 06:14:45 INFO thread_work(...) [Inter] Percentage non ptr chasing: 0.864102
+2024-04-14 06:14:45 INFO thread_work(...) [0] Takes 11.2085 seconds to execute queries 31250 ,average 358 microseconds per query
+2024-04-14 06:14:45 INFO thread_work(...) [0] Pointer chasing takes: 1524808863 nanoseconds to execute queries, average: 48 microseconds per query
+2024-04-14 06:14:45 INFO thread_work(...) [0] Non pointer chasing takes: 9668818956 nanoseconds to execute queries, average  309 microseconds per query
+2024-04-14 06:14:45 INFO thread_work(...) Percentage for ptr chasing: 0.136221
+2024-04-14 06:14:45 INFO thread_work(...) Percentage non ptr chasing: 0.863779
+
